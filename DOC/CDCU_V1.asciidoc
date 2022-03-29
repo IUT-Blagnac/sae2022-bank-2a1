@@ -1,1 +1,18 @@
-A compléter
+= Cahier des charges - Version 1
+
+== I. Présentation
+La banque Daily Bank possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
+Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le chef d'agence.
+
+== II. Analyse de l'existant
+
+.La V0 de Daily Bank comprend déjà les fonctionnalités suivantes :
+* Pour le guichetier :
+** Modifier informations client (adresse, téléphone, …)
+** Créer un nouveau client
+** Consulter un compte
+** Débiter un compte
+* Pour le chef d'agence :
+** Rendre inactif un client
+
+Cette version ne permet pas de répondre à tous les besoins de la banque, car elle ne permet pas de bien gérer les comptes bancaires. La V1 va en partie palier ce problème.
