@@ -31,6 +31,9 @@ Dans la version 1 du projet, voici les éléments qu'ils faut rajouter : +
 * Chef d’Agence :
 ** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
 
+===
+text test
+===
 
 ****
 image:icon_warning.png[30,30]
