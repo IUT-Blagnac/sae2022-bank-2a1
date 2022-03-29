@@ -16,3 +16,28 @@ Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le che
 ** Rendre inactif un client
 
 Cette version ne permet pas de répondre à tous les besoins de la banque, car elle ne permet pas de bien gérer les comptes bancaires. La V1 va en partie palier ce problème.
+
+
+== IV. Analyse des contraintes
+
+Nos contraintes se répartissent en deux grandes catégories : 
+
+*** L'aspect techniques
+*** L'aspect organisationnelles
+
+
+[options="header", width="950%", align="center", cols="^,^"]
+|=======
+| techniques  | organisationnelles
+| L'application doit être sécurisé et ne doit pas laisser fuiter les données des clients  
+| Nous devons respecter des deadlines et remettre régulièrement des éléments de l'avancé de notre travail
+|   Il faut que les fonctionnalités développées soient disponibles uniquement pour les personnes autorisées à s'en servir.
+|  Maintenir un GitHub à jour
+|  
+|  
+|    
+|  
+|=======
+
+
+En effet, travaillant durant ce projet avec une banque, nous devons respectez certainnes contraintes lors du développement de l'application. Elle doit être sécurisée afin de protégée les données clients.
