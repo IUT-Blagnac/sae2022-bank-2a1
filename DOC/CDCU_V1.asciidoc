@@ -17,6 +17,31 @@ Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le che
 
 Cette version ne permet pas de répondre à tous les besoins de la banque, car elle ne permet pas de bien gérer les comptes bancaires. La V1 va en partie palier ce problème.
 
+== [red]#III. Analyse des besoins de la version 1#
+___
+
+Donc il faut que le projet réponde a tout les besoin, il faut rajouter les fonctionnalié suivant a la version 0 du projet.
+
+Dans la version 1 du projet, voici les éléments qu'ils faut rajouter : +
+
+* Guichetier :
+** Créditer/débiter un compte (java et BD avec procédure stockée)
+** Créer un compte
+** Effectuer un virement de compte à compte
+** Clôturer un compte
+* Chef d’Agence :
+** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
+
+
+****
+image:icon_warning.png[30,30]
+CRUD = __Create Read Update Delete__
+****
+___
+
+Voici le use case que nous avons implémenter pour palier au nouveau besoins de la version 1 du proket 
+
+image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
 == IV. Analyse des contraintes
 
