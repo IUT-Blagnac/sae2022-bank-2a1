@@ -1,0 +1,25 @@
+== III. Analyse des besoins de la version 1
+
+Donc il faut que le projet réponde a tout les besoin, il faut rajouter les fonctionnalié suivant a la version 0 du projet.
+
+Dans la version 1 du projet, voici les éléments qu'ils faut rajouter : +
+
+* Guichetier :
+** Créditer/débiter un compte (java et BD avec procédure stockée)
+** Créer un compte
+** Effectuer un virement de compte à compte
+** Clôturer un compte
+* Chef d’Agence :
+** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
+
+
+
+
+
+****
+[.text-center]
+image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+****
+
+
+
