@@ -51,5 +51,5 @@ Nos contraintes se répartissent en deux grandes catégories :
 ** L'application se présente sous la forme d'une interface facilement utilisable pour des novices en informatiques.
 
 * L'aspect organisationnelles
-** Nous devons respecter des deadlines et remettre régulièrement des éléments de l'avancé de notre travail
-** Maintenir un GitHub à jour
+** Nous devons respecter des deadlines ainsi que le Gantt préalablement établie pour ce projet.
+** Il nous faut maintenir un GitHub à jour en mettant à jour régulièrement l'avancé de notre travail.
