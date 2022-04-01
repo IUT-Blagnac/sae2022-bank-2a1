@@ -1,9 +1,17 @@
 = Cahier des charges - Version 1
 
+== Sommaire
+<<id,Analyse des besoin>>
+<<id,Analyse de l'existant>>
+<<id,Analyse des besoins>>
+<<id,Analyse des contraintes>>
+
+[[id,Analyse des besoins]]
 == [red]#I. Présentation#
 La banque Daily Bank possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
 Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le chef d'agence.
 
+[[id,Analyse de l'existant]]
 == [red]#II. Analyse de l'existant#
 
 .La V0 de Daily Bank comprend déjà les fonctionnalités suivantes :
@@ -17,6 +25,7 @@ Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le che
 
 Cette version ne permet pas de répondre à tous les besoins de la banque, car elle ne permet pas de bien gérer les comptes bancaires. La V1 va en partie palier ce problème.
 
+[[id,Analyse des besoins]]
 == [red]#III. Analyse des besoins de la version 1#
 
 Donc il faut que le projet réponde a tout les besoin, il faut rajouter les fonctionnalié suivant a la version 0 du projet.
@@ -41,6 +50,7 @@ Voici le use case que nous avons implémenter pour palier au nouveau besoins de 
 
 image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
+[[id,Analyse des contraintes]]
 == [red]#IV. Analyse des contraintes#
 
 Nos contraintes se répartissent en deux grandes catégories : 
