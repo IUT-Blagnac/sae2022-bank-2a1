@@ -1,12 +1,12 @@
 = Cahier des charges - Version 1
 
 == Sommaire
-<<id,Analyse des besoin>> +
+<<id,Présentation>> +
 <<id,Analyse de l'existant>> +
 <<id,Analyse des besoins>> +
 <<id,Analyse des contraintes>> +
 
-[[id,Analyse des besoins]]
+[[id,Présentation]]
 == [red]#I. Présentation#
 La banque Daily Bank possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
 Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le chef d'agence.
