@@ -14,7 +14,7 @@ Ajouter ici une description du projet.
 | Date    | Nom         |  Lien                             | Retour
 | 03/04   | Gantt V1    |                                                              | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les ta^ches et les durées sur toutes les semaines du projet.
 |         | CdC V1      |                                   |   
-|         | Suivi Projet |                                   |   L'arborescence du projet est à compléter. Un dossier source... Les issues ne sont pas toujours affectées. Je ne suis pas sure qu'elles correspondent exactement au gantt. Les formats de fichier sont respectés. Votre projet est privé je ne peux pas consulter les commits.          
+|         | Suivi Projet |                                   |   L'arborescence du projet est à compléter. Un dossier source... Les issues ne sont pas toujours affectées. Je ne suis pas sure qu'elles correspondent exactement au gantt. Penser à classer les tâches du projet. Les formats de fichier sont respectés. Votre projet est privé je ne peux pas consulter les commits.  Penser à taguer les versions.        
 | 22/04  | CdC V2/V3 final|                                     |  
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
@@ -42,3 +42,29 @@ Ajouter ici une description du projet.
 |         | Recette V3  |   |
 |         | `jar` projet |     |
 |===
+
+== Les critères d'évaluation :SAE S2.05 Gestion de projet
+
+=== CDCU
+• Page de garde (Version, date, équipe, projet ...), Sommaire
+• Présentation du sujet
+◦ contexte, objectifs, à quel problème répond-t-il ?
+• Analyse de l’existant
+• Analyse des besoins incluant V2 et V3
+• Analyse des contraintes
+◦ techniques & organisationnelles
+
+
+=== Gestion de projet
+Gantts complets, cohérents avec les issues et à jour (tâches, resp., avancements...)
+Format (Gantt en pdf, docs en asciidoc) et arborescence du dépôt
+Sources versionnées, commit réguliers et commentés...
+Gestion du projet sous Github (issues, millestones, avancée ...), prise en compte des remarques dans le readme
+
+== consignes
+
+Définir et ordonnancer les tâches du projet, les formaliser via des issues, les classer (Must/Should/Could/Will), les affecter,
+
+Faire un GANTT à l’aide de l’outil de votre choix et le déposer en pdf de préférence sur 1 seule page,
+
+créer les issues du projet.
