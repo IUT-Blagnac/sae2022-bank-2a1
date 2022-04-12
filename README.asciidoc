@@ -14,7 +14,7 @@ Ajouter ici une description du projet.
 | Date    | Nom         |  Lien                             | Retour
 | 03/04   | Gantt V1    |                                                              | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les ta^ches et les durées sur toutes les semaines du projet.
 |         | CdC V1      |                                   |   
-|         | Suivi Projet |                                   |             
+|         | Suivi Projet |                                   |   L'arborescence du projet est à compléter. Un dossier source... Les issues ne sont pas toujours affectées. Je ne suis pas sure qu'elles correspondent exactement au gantt. Les formats de fichier sont respectés. Votre projet est privé je ne peux pas consulter les commits.          
 | 22/04  | CdC V2/V3 final|                                     |  
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
