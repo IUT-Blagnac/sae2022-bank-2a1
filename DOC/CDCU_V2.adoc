@@ -1,6 +1,15 @@
 = Cahier des charges - Version 1
 
-<<<
+Nom:: CDCU
+
+Date::
+20/04/2022
+
+Equipe::
+Mazeau Antoine <antoine.mazeau31@gmail.com> +
+Benachir Alexandre <> +
+Recher Olivier <> +
+Martinet Leila <> +
 
 == Sommaire
 <<id,Présentation>> +
