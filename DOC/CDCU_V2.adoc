@@ -11,8 +11,6 @@ Benachir Alexandre <> +
 Recher Olivier <> +
 Martinet Leila <> +
 
-'''
-
 == Sommaire
 <<id,Présentation>> +
 <<id,Analyse de l'existant>> +
