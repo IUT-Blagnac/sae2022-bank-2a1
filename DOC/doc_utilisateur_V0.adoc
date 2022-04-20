@@ -1,0 +1,26 @@
+= Daily Bank App
+
+
+
+== Bienvenue sur Daily Bank App
+
+Cette application va vous permettre de gérer les comptes bancaires de vos clients. Nous allons vous accompagner afin que vous puissiez pleinement vous servir de cet outil, qui vous verrez, vous ferra gagner du temps précieux, pour vous, et pour votre banque.
+
+
+=== Sommaire 
+
+
+=== Installation
+
+En tout premier lieu, occupons-nous de l'installation, Vous allez voir cela n'est pas compliqué et nous allons vous guidé pas à pas.
+
+Le dossier d'installation sera fournit par votre banque +
+Dezipper le +
+exécuter le fichier "install.exe" +
+accepter les différents termes d'utilisation
+
+=== Fonctionnement
+
+
+
+
