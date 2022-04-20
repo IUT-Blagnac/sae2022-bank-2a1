@@ -6,7 +6,8 @@ Equipe 2A01 :
 ** Alexandre Benachir
 ** Recher Olivier
 
-Ajouter ici une description du projet.
+Ajouter ici une description du projet. +
+
 == Livrables
 
 [cols="1,2,2,5",options=header]
