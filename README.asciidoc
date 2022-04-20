@@ -12,7 +12,7 @@ Ajouter ici une description du projet.
 [cols="1,2,2,5",options=header]
 |===
 | Date    | Nom         |  Lien                             | Retour
-| 03/04   | Gantt V1    |                                                              | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les ta^ches et les durées sur toutes les semaines du projet.
+| 03/04   | Gantt V1    |                                                              | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les tâches et les durées sur toutes les semaines du projet.
 |         | CdC V1      |                                   |   https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/retourcdcv12a1.adoc
 |         | Suivi Projet |                                   |   L'arborescence du projet est à compléter. Un dossier source... Les issues ne sont pas toujours affectées. Je ne suis pas sure qu'elles correspondent exactement au gantt. Penser à classer les tâches du projet. Les formats de fichier sont respectés. Votre projet est privé je ne peux pas consulter les commits.  Penser à taguer les versions.        
 | 22/04  | CdC V2/V3 final|                                     |  
