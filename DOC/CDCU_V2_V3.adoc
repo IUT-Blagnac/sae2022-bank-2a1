@@ -1,6 +1,6 @@
 = Cahier des charges - Version 2 & 3
 
-Nom:: CDCU
+Nom:: CDCU_V2_V3
 
 Date::
 01/05/2022
@@ -37,7 +37,7 @@ La banque Daily Bank, notre client, possède déjà une application mobile, _Dai
 Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles.
 
 
-Après analyse de l'existant de la V0 et de la V1, cette dernière a permis l' amélioration de l'application. Les nouvelles fonctionnalités de la V2, qui concernent les guichetiers et les chefs d'agence, doivent permettre de proposer de nouveaux services à la clientèle de la banque, ainsi qu'un meilleur suivi et une meilleure gestion de leurs clients.
+Après analyse de l'existant de la V0 et de la V1, cette dernière a permis l'amélioration de l'application. Les nouvelles fonctionnalités de la V2, qui concernent les guichetiers et les chefs d'agence, doivent permettre de proposer de nouveaux services à la clientèle de la banque, ainsi qu'un meilleur suivi et une meilleure gestion de leurs clients.
 
 
 [id = "II. Analyse existant v2"]
@@ -52,8 +52,8 @@ A l'issue de la V1, _Daily Bank_ permet : +
 [id = "III. Analyse des besoins de la v2"]
 === III. Analyse des besoins
 
-La version 2 doit permettre de faire évoluer la gestion interne de la banque afin de faire gagner en rapidité sur des actions qui était auparavant fait par les guichetiers des agences ou bien les chefs notamment pour la simulation d'emprunt et d'assurance emprunt. +
-L'application permettra un regrouppement de ses fonctionnalités répondant à un besoin de simplification des démarches. Ainsi les employés seront plus efficaces et notre client verra alors une augmentation de sa productivité.
+La version 2 doit permettre de faire évoluer la gestion interne de la banque afin de faire gagner en rapidité sur des actions qui étaient auparavant faites par les guichetiers des agences ou bien les chefs notamment pour la simulation d'emprunt et d'assurance emprunt. +
+L'application permettra un regroupement de ses fonctionnalités répondant à un besoin de simplification des démarches. Ainsi les employés seront plus efficaces et notre client verra alors une augmentation de sa productivité.
 
 [id = "IV. Contraintes de la V2"]
 === IV. Contraintes
