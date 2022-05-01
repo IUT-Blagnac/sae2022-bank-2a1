@@ -4,7 +4,7 @@
 <<id, I. Présentation & objectifs du projet>> +
 <<id, II. Analyse de l'existant>> +
 <<id, III. Analyse des besoins de la version 3>> +
-<<id, III. Contraintes>> +
+<<id, IV. Contraintes>> +
 
 <<<
 
@@ -27,7 +27,13 @@ A l'issue de la V2, _Daily Bank_ permet : +
 [[id, III. Analyse des besoins de la version 3]]
 === III. Analyse des besoins de la version 3
 
+Arrivés à la version 3, nous pouvons développer des fonctionnalités répondant à des besoins non exprimés mais supposés de _Daily Bank_. Nous nous pencherons dessus une fois la version 1 et 2 terminées. En effet, pour pouvoir satisfaire notre client, il faut avant tout impérativement avoir finalisé la version 1 et 2, qui elles répondent à des besoins clairement exprimés. +
 
+Avec la version 3, nous sommes également ammené  développer un "batch", c'est-à-dire un programme autonome. Le batch répondrait au besoin d'automatisation des tâches à caractère répétitif. +
+
+* Il génère un PDF avec les relevés mensuels
+
+* Il exécute les prélèvements automatiques
 
 [[id, IV. Contraintes]]
 === IV. Contraintes
@@ -40,5 +46,4 @@ Les contraintes sont : +
 
 * Les échéances à respecter pour les différentes versions (cf. Gantt prévisionnel) +
 
-* Le respect de la demand du client
-
+* Le respect de la demande du client, le produit doit répondre à ses beosins
