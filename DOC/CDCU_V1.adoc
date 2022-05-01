@@ -28,9 +28,9 @@ Cette version ne permet pas de répondre à tous les besoins de la banque, car e
 [[id,Analyse des besoins]]
 == [red]#III. Analyse des besoins de la version 1#
 
-Donc il faut que le projet réponde a tout les besoin, il faut rajouter les fonctionnalié suivant a la version 0 du projet.
+Pour que le projet réponde à tout les besoins, il faut rajouter des fonctionnalités à la version 0.
 
-Dans la version 1 du projet, voici les éléments qu'ils faut rajouter : +
+Dans la version 1 du projet, voici les éléments qu'il faut rajouter : +
 
 * Guichetier :
 ** Créditer/débiter un compte (java et BD avec procédure stockée)
@@ -46,7 +46,7 @@ CRUD = __Create Read Update Delete__
 ****
 
 
-Voici le use case que nous avons implémenter pour palier au nouveau besoins de la version 1 du proket 
+Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet.
 
 image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
@@ -55,11 +55,11 @@ image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
 Nos contraintes se répartissent en deux grandes catégories : 
 
-* L'aspect techniques
+* L'aspect technique
 ** L'application doit être sécurisée et ne doit pas laisser fuiter les données des clients.
 ** Il faut que les fonctionnalitées développées soient disponibles uniquement pour les personnes autorisées à s'en servir.
-** L'application se présente sous la forme d'une interface facilement utilisable pour des novices en informatiques.
+** L'application se présente sous la forme d'une interface facilement utilisable pour des novices en informatique.
 
-* L'aspect organisationnelles
-** Nous devons respecter des deadlines ainsi que le Gantt préalablement établie pour ce projet.
-** Il nous faut maintenir un GitHub à jour en mettant à jour régulièrement l'avancé de notre travail.
+* L'aspect organisationnel
+** Nous devons respecter des deadlines ainsi que le Gantt préalablement établi pour ce projet.
+** Il nous faut maintenir un GitHub à jour en ajoutant et modifiant régulièrement l'avancé de notre travail.
