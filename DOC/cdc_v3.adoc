@@ -1,22 +1,25 @@
 = Cahier des charges - Version 3
 
 == Sommaire
-<<id, I. Présentation & objectifs du projet>> +
-<<id, II. Analyse de l'existant>> +
-<<id, III. Analyse des besoins de la version 3>> +
-<<id, IV. Contraintes>> +
+<<I. Présentation & objectifs du projet>>
+
+<<II. Analyse existant>>
+
+<<III. Analyse des besoins de la version 3>>
+
+<<IV. Contraintes>>
 
 <<<
 
-[[id, I. Présentation & objectifs du projet]]
+[id = "I. Présentation & objectifs du projet"]
 === I. Présentation & objectifs du projet
 
 La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
 Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles. +
 Après analyse de l'existant, la V1 et la V2 ont permis  son amélioration. Les nouvelles fonctionnalités de la V3, qui concernent le chef d'agence et le "Batch", doivent permettre de finaliser l'application pour qu'elle corresponde à la demande du client.
 
-[[id, II. Analyse de l'existant]]
-=== II. Analyse de l'existant
+[id = "II. Analyse de l'existant"]
+=== II. Analyse existant
 
 A l'issue de la V2, _Daily Bank_ permet : +
 
@@ -24,7 +27,7 @@ A l'issue de la V2, _Daily Bank_ permet : +
 
 * Le Chef d'Agence peut faire les mêmes choses que le guichetier, mais il peut également rendre inactif un client, gérer les employés, effectuer un débit exceptionnel, simuler un emprunt et simuler une assurance d'emprunt. +
 
-[[id, III. Analyse des besoins de la version 3]]
+[id = "III. Analyse des besoins de la version 3"]
 === III. Analyse des besoins de la version 3
 
 Arrivés à la version 3, nous pouvons développer des fonctionnalités répondant à des besoins non exprimés mais supposés de _Daily Bank_. Nous nous pencherons dessus une fois la version 1 et 2 terminées. En effet, pour pouvoir satisfaire notre client, il faut avant tout impérativement avoir finalisé la version 1 et 2, qui elles répondent à des besoins clairement exprimés. +
@@ -35,7 +38,7 @@ Avec la version 3, nous sommes également ammené  développer un "batch", c'est
 
 * Il exécute les prélèvements automatiques
 
-[[id, IV. Contraintes]]
+[id = "IV. Contraintes"]
 === IV. Contraintes
 
 Les contraintes sont : +
@@ -46,4 +49,4 @@ Les contraintes sont : +
 
 * Les échéances à respecter pour les différentes versions (cf. Gantt prévisionnel) +
 
-* Le respect de la demande du client, le produit doit répondre à ses beosins
+* Le respect de la demande du client, le produit doit répondre à ses besoins
