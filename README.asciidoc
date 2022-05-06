@@ -17,7 +17,15 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 | 03/04   | Gantt V1    |                                                              | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les tâches et les durées sur toutes les semaines du projet.
 |         | CdC V1      |                                   |   https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/retourcdcv12a1.adoc
 |         | Suivi Projet |                                   |   L'arborescence du projet est à compléter. Un dossier source... Les issues ne sont pas toujours affectées. Je ne suis pas sure qu'elles correspondent exactement au gantt. Penser à classer les tâches du projet. Les formats de fichier sont respectés. Votre projet est privé je ne peux pas consulter les commits.  Penser à taguer les versions.        
-| 22/04  | CdC V2/V3 final| https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/6b521c020054e97b6a31c6f43dd8798082b70541/DOC/CDCU_V2_V3.adoc                                    |  
+| 22/04  | CdC V2/V3 final| https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/6b521c020054e97b6a31c6f43dd8798082b70541/DOC/CDCU_V2_V3.adoc                                    |  1,5/2	Manque nom projet et client
+1,5/2	Il ne faut faire qu'un seul CDCU ! Et ne faire évoluer que la partie besoins voir contraintes pour V2 puis V3.
+3/4	Il manque juste une problématque, pourquoi ce projet ?
+1/4	Je devrais retrouver V0 dans l'analyse de l'existant avec UC correspondants.
+1/4	Il manque les UC, la priorisation des objectifs et les règles de gestion. Expliquer BATCH et CRUD.
+2/4	Il faut détailler les différentes contraintes.contraintes techniques (lg, archi …), orga (dates de livraison, organisation de l'équipes, outils collaboratifs, gantt commentés), juridique (RGPD, impact sur votre projet …), règles de gestion pour les fonctionnalités (conditions pour réaliser un débit par ex).
+	
+10/20	
+
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
 |         | Doc. Tec. V1 |        |    
