@@ -1,6 +1,6 @@
-= Daily Bank App - documentation utilisateur
+= Daily Bank App - documentation utilisateur V0
 
-Nom:: documentation utilisateur
+Nom:: documentation utilisateur V0
 
 Date::
 08/05/2022
