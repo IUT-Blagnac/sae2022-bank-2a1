@@ -1,0 +1,46 @@
+= Daily Bank App - documentation technique V0
+
+Nom:: documentation technique V0
+
+Date::
+08/05/2022
+
+Equipe::
+Mazeau Antoine <antoine.mazeau31@gmail.com> +
+Benachir Alexandre <> +
+Recher Olivier <recher.olivier@outlook.fr> +
+Martinet Leila <leila.mrtnt1@gmail.com> +
+
+Sommaire::
+<<I. Presentation>> +
+<<II. Architecture>> +
+<<III. Fonctionnalite>> +
+<<IV. Elements de codes> +
+
+'''
+
+== Bienvenue sur Daily Bank App
+
+[id = "I. Presentation"]
+=== I. Présentation de l'application
+
+Cette application doit permettre de gérer les comptes bancaires des clients d'une banque.
+
+
+[id = "II. Architecture"]
+=== II. Architecture
+
+
+
+[id = "III. Fonctionnalite"]
+=== III. Fonctionnalite
+
+* Use Case
+* Diagramme de classes 
+
+
+[id = "IV. Elements de codes"]
+=== IV. Elements de codes
+
+
+
