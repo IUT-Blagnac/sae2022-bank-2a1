@@ -5,6 +5,8 @@ Nom:: documentation utilisateur V0
 Date::
 08/05/2022
 
+Nom du client:: Daily Bank
+
 Equipe::
 Mazeau Antoine <antoine.mazeau31@gmail.com> +
 Benachir Alexandre <> +
