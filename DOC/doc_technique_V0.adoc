@@ -5,7 +5,7 @@ Nom:: documentation technique V0
 Date::
 08/05/2022
 
-Nom:: Daily Bank
+Nom du client:: Daily Bank
 
 Equipe::
 Mazeau Antoine <antoine.mazeau31@gmail.com> +
