@@ -16,8 +16,8 @@ Martinet Leila <leila.mrtnt1@gmail.com> +
 Sommaire::
 <<I. Presentation>> +
 <<II. Architecture>> +
-<<III. Fonctionnalite>> +
-<<IV. Elements de codes> +
+<<III. Analyse existant>> +
+<<IV. Fonctionnalite> +
 
 '''
 
@@ -34,15 +34,15 @@ Cette application doit permettre de gérer les comptes bancaires des clients d'u
 
 
 
-[id = "III. Fonctionnalite"]
-=== III. Fonctionnalite
+[id = "III. Analyse existant"]
+=== III. Analyse existant
 
 * Use Case
 * Diagramme de classes 
 
 
-[id = "IV. Elements de codes"]
-=== IV. Elements de codes
+[id = "IV. Fonctionnalite"]
+=== IV. Fonctionnalite
 
 
 
