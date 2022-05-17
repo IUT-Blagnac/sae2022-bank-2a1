@@ -32,12 +32,23 @@ Cette application va vous permettre de gérer les comptes bancaires de vos clien
 [id = "II. Installation"]
 === II. Installation
 
+Prérequis::
+
+* Possédé la version du jdk java 1.8_202
+* avoir exécuter le fichier setenv-cmd.bat 
+
+
 En tout premier lieu, occupons-nous de l'installation, Vous allez voir cela n'est pas compliqué et nous allons vous guidé pas à pas.
 
-* Le dossier d'installation sera fournit par votre banque +
-* Dezipper le +
-* exécuter le fichier "install.exe" +
-* accepter les différents termes d'utilisation
+* Le dossier d'installation sera fournit par votre banque 
+* Dezipper le (click Droit > 7-zip > )
+
+****
+image:extraire.png[30,30]
+CRUD = __Create Read Update Delete__
+****
+
+* exécuter le fichier finissant par ".jar"
 
 
 [id = "III. Fonctionnement"]
