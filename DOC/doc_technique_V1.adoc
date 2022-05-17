@@ -45,9 +45,9 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 ** Consulter un compte
 ** Débiter un compte
 * Pour le chef d'agence :
-** Rendre inactif un client +
+** Rendre inactif un client 
 
-
++
 
 Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet. +
 
