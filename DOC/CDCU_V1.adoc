@@ -48,7 +48,7 @@ CRUD = __Create Read Update Delete__
 
 Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet.
 
-image::[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
 [[id,Analyse des contraintes]]
 == [red]#IV. Analyse des contraintes#
