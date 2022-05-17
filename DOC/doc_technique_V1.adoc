@@ -61,12 +61,12 @@ Voici le use case que nous avons implémenté pour répondre aux nouveaux besoin
 
 
 * Pour le guichetier :
-** créer un compte bancaire
-** créditer un compte bancaire
-** effectuer un virement de compte à compte
+** créer un compte bancaire (Olivier)
+** créditer un compte bancaire (Alexandre)
+** effectuer un virement de compte à compte (Leila)
 ** cloturer un compte
 * Pour le chef d'agence :
-** Gérer les employés
+** Gérer les employés (Antoine
 
 
 
