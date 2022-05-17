@@ -26,7 +26,8 @@ Sommaire::
 [id = "I. Presentation"]
 === I. Présentation de l'application
 
-Cette application doit permettre de gérer les comptes bancaires des clients d'une banque.
+L'application finale doit permettre de gérer les comptes bancaires des clients d'une banque. La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
+Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles.
 
 
 [id = "II. Architecture"]
@@ -38,6 +39,8 @@ Cette application doit permettre de gérer les comptes bancaires des clients d'u
 === III. Analyse existant
 
 * Use Case
+image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+
 * Diagramme de classes 
 
 
