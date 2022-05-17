@@ -38,7 +38,8 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 [id = "III. Analyse existant"]
 === III. Analyse existant
 
-* Use Case
+* Use Case +
+
 image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
 * Diagramme de classes 
