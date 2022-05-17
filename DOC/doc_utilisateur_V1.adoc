@@ -41,10 +41,10 @@ Prérequis::
 En tout premier lieu, occupons-nous de l'installation, Vous allez voir cela n'est pas compliqué et nous allons vous guidé pas à pas.
 
 * Le dossier d'installation sera fournit par votre banque 
-* Dezipper le (click Droit > 7-zip > )
+* Dezipper le 
 
 
-image::extraire.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+image::extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""]
 
 
 * exécuter le fichier finissant par ".jar"
