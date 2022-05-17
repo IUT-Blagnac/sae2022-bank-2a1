@@ -38,17 +38,20 @@ Prérequis::
 * avoir exécuter le fichier setenv-cmd.bat 
 
 
-En tout premier lieu, occupons-nous de l'installation, Vous allez voir cela n'est pas compliqué et nous allons vous guidé pas à pas.
+Lancement de l'application::
 
 * Le dossier d'installation sera fournit par votre banque 
-* Dezipper le 
-
+* Dezippez le 
 
 image::extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""]
 
+*Déplacez-vous dans le fichier créer
 
-* exécuter le fichier finissant par ".jar"
+image::nouv_fichier.png[title="click Droit > Ouvrir"]
 
+* exécutez le fichier finissant par ".jar"
+
+image::ouvrir_jar.png[title="click Droit > Ouvrir"]
 
 [id = "III. Fonctionnement"]
 === III. Fonctionnement
