@@ -43,10 +43,9 @@ En tout premier lieu, occupons-nous de l'installation, Vous allez voir cela n'es
 * Le dossier d'installation sera fournit par votre banque 
 * Dezipper le (click Droit > 7-zip > )
 
-****
-image:extraire.png[30,30]
-CRUD = __Create Read Update Delete__
-****
+
+image::extraire.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+
 
 * exécuter le fichier finissant par ".jar"
 
