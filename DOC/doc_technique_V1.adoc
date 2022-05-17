@@ -59,5 +59,9 @@ Voici le use case que nous avons implémenté pour répondre aux nouveaux besoin
 [id = "IV. Fonctionnalite"]
 === IV. Fonctionnalite
 
+* créer un compte bancaire
+* créditer un compte bancaire
+* effectuer un virement de compte à compte
+
 
 
