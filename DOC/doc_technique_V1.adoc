@@ -37,21 +37,15 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 
 [id = "III. Analyse existant"]
 === III. Analyse existant
-Dans la version 1 du projet, voici les éléments qu'il faut rajouter : +
 
-* Guichetier :
-** Créditer/débiter un compte (java et BD avec procédure stockée)
-** Créer un compte
-** Effectuer un virement de compte à compte
-** Clôturer un compte
-* Chef d’Agence :
-** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
-
-****
-image:icon_warning.png[30,30]
-CRUD = __Create Read Update Delete__
-****
-
+.La V0 de Daily Bank comprend déjà les fonctionnalités suivantes :
+* Pour le guichetier :
+** Modifier informations client (adresse, téléphone, …)
+** Créer un nouveau client
+** Consulter un compte
+** Débiter un compte
+* Pour le chef d'agence :
+** Rendre inactif un client
 
 Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet.
 
