@@ -33,7 +33,7 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 [id = "II. Architecture"]
 === II. Architecture
 
-
+L'application _Daily Bank_ est codée en java 8. Les comptes ainsi que toutes leurs informations sont stockés sur une base de données. La banque doit donc prévoir un serveur où stocker sa base de données. Pour pouvoir y accéder, l'utilisateur doit se logger à la base de données via l'interface de l'application.
 
 [id = "III. Analyse existant"]
 === III. Analyse existant
@@ -47,9 +47,14 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 * Pour le chef d'agence :
 ** Rendre inactif un client 
 
++
+
 Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet. +
 
 image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+
+* Diagramme de classes 
+
 
 [id = "IV. Fonctionnalite"]
 === IV. Fonctionnalite
