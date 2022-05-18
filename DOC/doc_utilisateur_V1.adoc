@@ -60,7 +60,7 @@ L'application fonctionne pour les guichetiers de la banque ainsi que pour les ch
 
 * Connectez vous avec le login et le mot de passse fourni par votre banque
 
-image::images/connexion.png[title="click Droit > Ouvrir"]
+image::images/connexion.png[]
 
 * Vous êtes désormais connecté et vous avez accès à vos informations ainsi qu'aux informations de votre banques
 
