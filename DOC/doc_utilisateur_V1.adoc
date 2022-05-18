@@ -80,6 +80,20 @@ image::images/gestion_clients.png[]
 
 image::images/rechercher.png[]
 
+image::images/rechercher_client.png[]
+
+* Une fois un client sélectionner, vous pouvez accèder aux information du client ou bien modifier le client
+
+image::images/client_selec.png[]
+
+image::images/client_info.png[title="information des différents comptes du client"]
+
+image::images/client_modif.png[title="fenêtre de modification des différents champs du client"]
+
+* Dans Comptes client, en plus des informations du client, vous avez la possibilté de rajouter un compte au client en question
+
+image::images/client_nouv_compte.png[]
+
 
 [id = "IV. Résultats et jeux"]
 === IV. Résultats et jeux d'essai
