@@ -48,7 +48,7 @@ L'application _Daily Bank_ est codée en Java 8. Les comptes ainsi que toutes le
 ** Rendre inactif un client 
 
 
-image::uc_V1.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
+image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 
 
