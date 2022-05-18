@@ -56,6 +56,29 @@ image::images/ouvrir_jar.png[title="click Droit > Ouvrir"]
 [id = "III. Fonctionnement"]
 === III. Fonctionnement
 
+L'application fonctionne pour les guichetiers de la banque ainsi que pour les chefs d'agence qui ont des fonctionnalité supplémentaire. Nous allons vous présenter comment l'application fonctionne.
+
+* Connectez vous avec le login et le mot de passse fourni par votre banque
+
+image::images/connexion.png
+
+* Vous êtes désormais connecté et vous avez accès à vos informations ainsi qu'aux informations de votre banques
+
+image::images/connexion_faite.png
+
+* Dans le menu Utilisateur vous pouvez vous déconnecter de votre session
+
+image::images/deconnexion.png
+
+* Dans le menu Gestion, vous pouvez gérer les comptes des clients de la banque
+
+image::images/menu_gestion_clients.png
+
+image::images/gestion_clients.png
+
+* Vous pouvez rechercher un client en particulier ou afficher tout les clients grâce au bouton "Rechercher"
+
+image::images/rechercher.png
 
 
 [id = "IV. Résultats et jeux"]
