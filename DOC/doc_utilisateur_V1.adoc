@@ -47,11 +47,11 @@ image::images/extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Ban
 
 *Déplacez-vous dans le fichier créer
 
-image::nouv_fichier.png[title="click Droit > Ouvrir"]
+image::images/nouv_fichier.png[title="click Droit > Ouvrir"]
 
 * exécutez le fichier finissant par ".jar"
 
-image::ouvrir_jar.png[title="click Droit > Ouvrir"]
+image::images/ouvrir_jar.png[title="click Droit > Ouvrir"]
 
 [id = "III. Fonctionnement"]
 === III. Fonctionnement
