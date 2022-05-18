@@ -52,7 +52,6 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 
 
-* Diagramme de classes 
 
 
 [id = "IV. Fonctionnalite"]
