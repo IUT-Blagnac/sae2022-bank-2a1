@@ -64,21 +64,21 @@ image::images/connexion.png[]
 
 * Vous êtes désormais connecté et vous avez accès à vos informations ainsi qu'aux informations de votre banques
 
-image::images/connexion_faite.png[title="click Droit > Ouvrir"]
+image::images/connexion_faite.png[]
 
 * Dans le menu Utilisateur vous pouvez vous déconnecter de votre session
 
-image::images/deconnexion.png[title="click Droit > Ouvrir"]
+image::images/deconnexion.png[]
 
 * Dans le menu Gestion, vous pouvez gérer les comptes des clients de la banque
 
-image::images/menu_gestion_clients.png[title="click Droit > Ouvrir"]
+image::images/menu_gestion_clients.png[]
 
-image::images/gestion_clients.png[title="click Droit > Ouvrir"]
+image::images/gestion_clients.png[]
 
 * Vous pouvez rechercher un client en particulier ou afficher tout les clients grâce au bouton "Rechercher"
 
-image::images/rechercher.png[title="click Droit > Ouvrir"]
+image::images/rechercher.png[]
 
 
 [id = "IV. Résultats et jeux"]
