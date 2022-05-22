@@ -44,8 +44,9 @@ Lancement de l'application::
 * Dezippez le 
 
 image::images/extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""] 
- +
- +
+
++
++
 
 *Déplacez-vous dans le fichier créer
 
