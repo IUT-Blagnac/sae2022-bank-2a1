@@ -43,11 +43,12 @@ Lancement de l'application::
 * Le dossier d'installation sera fourni par votre banque 
 * Dezippez le 
 
-image::images/extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""] +
+image::images/extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""] 
+<<<
 
 *Déplacez-vous dans le fichier créer
 
-image::images/nouv_fichier.png[title="click Droit > Ouvrir"] +
+image::images/nouv_fichier.png[title="click Droit > Ouvrir"] 
 
 * exécutez le fichier finissant par ".jar"
 
