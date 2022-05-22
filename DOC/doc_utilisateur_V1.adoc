@@ -44,22 +44,17 @@ Lancement de l'application::
 * Dezippez le 
 
 image::images/extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""] 
-
-Rubies are red, +
-Topazes are blue.
-
 [%hardbreaks]
-Ruby is red.
-Java is black.
-
 
 *Déplacez-vous dans le fichier créer
 
 image::images/nouv_fichier.png[title="click Droit > Ouvrir"] 
+[%hardbreaks]
 
 * exécutez le fichier finissant par ".jar"
 
 image::images/ouvrir_jar.png[title="click Droit > Ouvrir"]
+[%hardbreaks]
 
 [id = "III. Fonctionnement"]
 === III. Fonctionnement
