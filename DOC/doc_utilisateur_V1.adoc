@@ -45,7 +45,13 @@ Lancement de l'application::
 
 image::images/extraire.png[title="click Droit > 7-Zip > Extraire vers "Daily_Bank_V0\""] 
 
-++++
+Rubies are red, +
+Topazes are blue.
+
+[%hardbreaks]
+Ruby is red.
+Java is black.
+
 
 *Déplacez-vous dans le fichier créer
 
