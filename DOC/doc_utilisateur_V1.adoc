@@ -94,7 +94,11 @@ image::images/client_selec.png[]
 
 * Vous pouvez modifier ses informations
 
-image::images/client_modif.png[title="fenêtre de modification des différents champs du client"]
+image::images/client_modif.png[]
+
+* Vous pouvez aussi créer un compte client
+
+image::images/creer_client.png[]
 
 * Vous pouvez désactiver son compte seulement et seulement si tous les comptes du client en question ont un solde de 0
 
