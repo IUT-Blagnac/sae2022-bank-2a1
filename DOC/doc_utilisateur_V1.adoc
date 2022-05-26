@@ -112,7 +112,7 @@ image::images/compte_client.png[]
 
 image::images/client_nouv_compte.png[]
 
-* Vous pouvez aussi cloturer un compte du client, mais seulement si le solde du compte en queston est à 0
+* Vous pouvez aussi cloturer un compte du client, mais seulement si le solde du compte en question est à 0
 
 image::images/compte-cloturer.png[]
 
