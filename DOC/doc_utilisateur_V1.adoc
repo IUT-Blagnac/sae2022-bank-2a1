@@ -100,7 +100,7 @@ image::images/client_modif.png[]
 
 image::images/creer_client.png[]
 
-* Vous pouvez désactiver son compte seulement et seulement si tous les comptes du client en question ont un solde de 0
+* Vous pouvez désactiver un client seulement et seulement si tous les comptes du client en question ont un solde de 0
 
 image::images/client_desactiver.png[]
 
