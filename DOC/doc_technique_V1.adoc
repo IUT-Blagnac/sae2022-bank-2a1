@@ -1,6 +1,6 @@
-= Daily Bank App - documentation technique V0
+= Daily Bank App - Documentation technique V1
 
-Nom:: documentation technique V0
+Nom:: Documentation technique V1
 
 Date::
 08/05/2022
