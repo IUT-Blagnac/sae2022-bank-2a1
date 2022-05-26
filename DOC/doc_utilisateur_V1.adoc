@@ -92,8 +92,6 @@ image::images/rechercher_client.png[]
 
 image::images/client_selec.png[]
 
-image::images/client_info.png[title="information des différents comptes du client"]
-
 image::images/client_modif.png[title="fenêtre de modification des différents champs du client"]
 
 * Dans Comptes client, en plus des informations du client, vous avez la possibilté de rajouter un compte au client en question
