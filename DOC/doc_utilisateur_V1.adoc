@@ -100,6 +100,10 @@ image::images/client_modif.png[title="fenêtre de modification des différents c
 
 image::images/client_nouv_compte.png[]
 
+* Vous pouvez aussi cloturer un compte du client, mais seulement si le solde du compte en queston est à 0
+
+image::images/compte-cloturer.png[]
+
 
 [id = "IV. Résultats et jeux"]
 === IV. Résultats et jeux d'essai
