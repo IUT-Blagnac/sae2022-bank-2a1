@@ -104,6 +104,9 @@ image::images/client_nouv_compte.png[]
 
 image::images/compte-cloturer.png[]
 
+* Dans "Voir Opérations", vous pouvez voir la liste des opérations qui ont été faites mais aussi effectuer un débit, un crédit ou encore un virement
+
+image::images/compte-operations.png[]
 
 [id = "IV. Résultats et jeux"]
 === IV. Résultats et jeux d'essai
