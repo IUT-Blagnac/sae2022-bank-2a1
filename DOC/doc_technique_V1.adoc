@@ -59,12 +59,12 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 
 * Pour le guichetier :
-** créer un compte bancaire (Olivier)
-** créditer un compte bancaire (Alexandre)
-** effectuer un virement de compte à compte (Leila)
-** cloturer un compte
+** Créer un compte bancaire (Olivier)
+** Créditer un compte bancaire (Alexandre)
+** Effectuer un virement de compte à compte (Leila)
+** Cloturer un compte (Alexandre)
 * Pour le chef d'agence :
-** Gérer les employés (Antoine
+** Gérer les employés (Antoine)
 
 
 
