@@ -88,11 +88,17 @@ image::images/rechercher.png[]
 
 image::images/rechercher_client.png[]
 
-* Une fois un client sélectionner, vous pouvez accèder aux information du client ou bien modifier le client
+* Une fois un client sélectionner, vous pouvez effectuer plusieurs actions sur ce client
 
 image::images/client_selec.png[]
 
+* Vous pouvez modifier ses informations
+
 image::images/client_modif.png[title="fenêtre de modification des différents champs du client"]
+
+* Vous pouvez désactiver son compte seulement et seulement si tous les comptes du client en question ont un solde de 0
+
+image::images/client_desactiver.png[]
 
 * Dans Comptes client, en plus des informations du client, vous avez la possibilté de rajouter un compte au client en question
 
