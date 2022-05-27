@@ -120,5 +120,9 @@ image::images/compte-cloturer.png[]
 
 image::images/compte-operations.png[]
 
+* Si vous êtes un chef d'agence vous aurez accès a la possibilité de gérer les employés, c'est-à-dire, les autres chef d'agence et les guichetiers. Vous avez accès a la fenêtre de gestion dans employés dans le menu : Gestion => Employé
+
+image::images/AccesGestionEmploye.png[]
+
 [id = "IV. Résultats et jeux"]
 === IV. Résultats et jeux d'essai
