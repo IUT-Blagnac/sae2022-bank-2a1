@@ -124,5 +124,21 @@ image::images/compte-operations.png[]
 
 image::images/AccesGestionEmploye.png[]
 
+* Une fois dans la fenêtre de gestion, vous pouvez soit rechercher un employé en particulier ou rechercher tout les employés (faire une recherche sans critères) grâce au bouton en haut à droite "Rechercher". 
+
+image::images/gestionEmployé.png[]
+
+* Vous pouvez aussi directemment créer un nouveau employé grace au bouton "Nouveau employé"
+
+image::images/nouveauEmployé.png[]
+
+* Lorsque vous sélectionner un employé, vous pouvez modifier ses informations grâce au bouton "Modifier Employé"
+
+image::images/modifierEmployé.png[]
+
+* Vous pouvez aussi le supprimer grâce au bouton "Supprimer employé". Dans ce cas, un message de confirmation vous sera demander.
+
+image::images/confirmationSuppresionEmployé.png[]
+
 [id = "IV. Résultats et jeux"]
 === IV. Résultats et jeux d'essai
