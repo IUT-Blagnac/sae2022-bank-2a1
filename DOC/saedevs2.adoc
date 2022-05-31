@@ -7,10 +7,10 @@
 |1    |chef de projet    |CRUD employé  |R|Antoine| | |
 |1    |chef de projet    |CRUD employé  |U|Antoine| | |
 |1    |chef de projet    |CRUD employé  |D|Antoine| | |
-|1    |Guichetier     | Compte | Créer|| | | 
-|1    |Guichetier     | Compte | Créditer/Débiter|| | | 
-|1    |Guichetier     | Compte | Effectuer un virement|| | | 
-|1    |Guichetier     | Compte | Clôturer|| | | 
+|1    |Guichetier     | Compte | Créer|Olivier| | | 
+|1    |Guichetier     | Compte | Créditer/Débiter|Alexandre| | | 
+|1    |Guichetier     | Compte | Effectuer un virement|Leila| | | 
+|1    |Guichetier     | Compte | Clôturer|Alexandre| | | 
 |2    |Chef d’Agence     | Compte | Débit exceptionnel|| | | 
 |2    |Chef d’Agence     | Emprunt | Simuler emprunt|| | | 
 |2    |Chef d’Agence     | Emprunt | Simuler assurance|| | | 
