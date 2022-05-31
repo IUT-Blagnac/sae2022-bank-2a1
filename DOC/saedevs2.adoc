@@ -3,14 +3,14 @@
 [options="header,footer"]
 |=======================
 |version|user     |use case   |cas...                 |   Etudiant 1 | Etudiant 2  |   Etudiant 3 | Etudiant 4
-|1    |Chef de projet    |CRUD employé  |C|Antoine| | |
-|1    |chef de projet    |CRUD employé  |R|Antoine| | |
-|1    |chef de projet    |CRUD employé  |U|Antoine| | |
-|1    |chef de projet    |CRUD employé  |D|Antoine| | |
-|1    |Guichetier     | Compte | Créer|Olivier| | | 
-|1    |Guichetier     | Compte | Créditer/Débiter|Alexandre| | | 
-|1    |Guichetier     | Compte | Effectuer un virement|Leila| | | 
-|1    |Guichetier     | Compte | Clôturer|Alexandre| | | 
+|1    |Chef de projet    |CRUD employé  |C|Antoine F| | |
+|1    |chef de projet    |CRUD employé  |R|Antoine F| | |
+|1    |chef de projet    |CRUD employé  |U|Antoine F| | |
+|1    |chef de projet    |CRUD employé  |D|Antoine F| | |
+|1    |Guichetier     | Compte | Créer|Olivier F| | | 
+|1    |Guichetier     | Compte | Créditer/Débiter|Alexandre F| | | 
+|1    |Guichetier     | Compte | Effectuer un virement|Leila F| | | 
+|1    |Guichetier     | Compte | Clôturer|Alexandre F| | | 
 |2    |Chef d’Agence     | Compte | Débit exceptionnel|| | | 
 |2    |Chef d’Agence     | Emprunt | Simuler emprunt|| | | 
 |2    |Chef d’Agence     | Emprunt | Simuler assurance|| | | 
