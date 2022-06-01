@@ -17,8 +17,7 @@ Sommaire::
 <<I. Presentation>> +
 <<II. Architecture>> +
 <<III. Analyse existant>> +
-<<IV. Fonctionnalite>>
-* <<1. Créer un compte bancaire (Olivier)>> +
+<<IV. Fonctionnalite>> +
 
 '''
 
@@ -76,10 +75,9 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 ==== Pour le guichetier :
 
-[id = "1. Créer un compte bancaire (Olivier)"]
 =====  1. Créer un compte bancaire (Olivier)
 
-Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'    et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
+Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'employé et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
 
 image::images/bout_nouv_compte.png[title="Bouton de création d'un nouveau compte"] 
 
@@ -93,8 +91,8 @@ Dans CompteManagement, c'est par l'appel de la fonction "doCompteEditorDialog()"
 
 C'est dans cette méthode que le compte du client va être ajouté à la base donnée sur oracle par une requête SQL reprenant les différents attributs du CompteCourant passé en paramètre.
 
-===== Créditer un compte bancaire (Alexandre)
-===== Effectuer un virement de compte à compte (Leila)
+===== 2. Créditer un compte bancaire (Alexandre)
+===== 3. Effectuer un virement de compte à compte (Leila)
 
 Pour effectuer un virement compte à compte, le guichetier doit se rendre, via l'interface graphique, dans la fenêtre de gestion des opérations. Là, il doit cliquer sur le bouton "Virement". +
 
@@ -110,11 +108,11 @@ Lors de l'appui sur le bouton "Effectuer virement", la méthode _doAjouter()_, q
 Si le virement est accepté, la fenêtre operation editor pane est fermée et l'Opération stockée en tant qu'attribut de _OperationEditorPaneController_. +
 Le virement est alors effectué par la méthode _insertVirement(int idNumCompteDeb, int idNumCompteCred, double montantOp)_ de la classe _AccessOperation_, elle-même appelée dans la fonction enregistrerVirement (). L'Opération est alors enregistrée dans la base de données grâce à l'appel de la procédure stockée "Virer".
 
-===== Cloturer un compte (Alexandre)
+===== 4. Cloturer un compte (Alexandre)
 
 
 ==== Pour le chef d'agence :
-===== Gérer les employés (Antoine)
+===== 1. Gérer les employés (Antoine)
 
 
 
