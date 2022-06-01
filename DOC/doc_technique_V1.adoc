@@ -75,7 +75,7 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 Pour le guichetier :
 
-===Créer un compte bancaire (Olivier)::
+==== Créer un compte bancaire (Olivier)::
 
 Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'    et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
 
