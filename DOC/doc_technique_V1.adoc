@@ -129,7 +129,7 @@ Le virement est alors effectué par la méthode _insertVirement(int idNumCompteD
 
 Un chef d'agence peut faire le CRUD (Create Read Update Delete) des employés. +
 
-Localisatiion des classes utilisé:: 
+Localisation des classes utilisé:: 
 _DailyBankMainFrameController_ => package application.view +
 _DailyBankMainFrame_ => package application.control +
 _EmployeManagement_ => package application.control +
@@ -137,9 +137,6 @@ _EmployesManagementController_  => package application.view +
 _AccessEmploye_ => package model.orm +
 _Employe_ => package model.data +
 _EmployeEditorPaneController_ => package application.view +
-
-
-
 
 
 * _(Read)_ +
