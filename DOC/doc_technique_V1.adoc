@@ -27,7 +27,20 @@ Sommaire::
 === I. Présentation de l'application
 
 L'application finale doit permettre de gérer les comptes bancaires des clients d'une banque. La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
-Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles.
+Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles. +
+
+Afin de mieux comprendre le fonctionnement de Daily Bank App, voici ci-dessous le diagramme de classe du programme comprennant les différents acteurs qui interviennent dans l'application.
+
+image::images/dc_v1.png[title="Diagramme de classe de données global de la v1"]
+
+Nous retrouvons::
+
+* Le client qui posséde un ou plusieurs compte courant et qui est dans une agence bancaire.
+* Les comptes courants sont possédés par un client et ils sont gérer par l'agence bancaire dont ils dépendent.
+* Les comptes courants sont composés d'opérations.
+* Les opérations ont un certain type d'opération.
+* L'agence bancaire a des clients et gére les comptes des clients. Elle possède également des employés (guichetier et chef d'agence).
+* Les employés font parti de l'agence bancaire, ils se répartissent en tant que guichetier et chef d'agence.
 
 
 [id = "II. Architecture"]
