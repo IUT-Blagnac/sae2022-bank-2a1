@@ -73,7 +73,7 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 === IV. Fonctionnalite
 
 
-* Pour le guichetier :
+Pour le guichetier :
 
 ===Créer un compte bancaire (Olivier)::
 
