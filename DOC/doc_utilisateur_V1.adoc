@@ -110,7 +110,7 @@ image::images/compte_client.png[]
 
 * Vous pouvez modifier les informations d'un compte. Si vous modifiez le solde un débit ou crédit se fera automatiquement. Le solde doit être supérieur au débit autorisé.
 
-image::images/compte-modifier.png[]
+image::images/modifier-compte.png[]
 
 * Vous pouvez notamment créer un compte bancaire. Le solde minimum à la création du compte est de 50 et le solde doit être supérieur au débit autorisé.
 
