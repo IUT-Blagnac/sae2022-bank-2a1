@@ -124,6 +124,18 @@ image::images/compte-cloturer.png[]
 
 image::images/compte-operations.png[]
 
+* Quand vous faites un débit, vous pouvez choisir le type de retrait. Vous ne pouvez pas dépassé le débit autorisé. Le champ du montant doit contenir un nombre.
+
+image::images/debit-compte.png[]
+
+* Quand vous faites un crédit, vous pouvez choisir le type de dépot. Le champ du montant doit contenir un nombre.
+
+image::images/credit-compte.png[]
+
+* Quand vous faites un virement, vous pouvez choisir le compte à créditer. Le champ du montant doit contenir un nombre. Vous ne pouvez pas dépassé le débit autorisé
+
+image::images/virement-compte.png[]
+
 * Si vous êtes un chef d'agence vous aurez accès a la possibilité de gérer les employés, c'est-à-dire, les autres chef d'agence et les guichetiers. Vous avez accès a la fenêtre de gestion dans employés dans le menu : Gestion => Employé
 
 image::images/AccesGestionEmploye.png[]
