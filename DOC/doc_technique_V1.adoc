@@ -61,8 +61,10 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'    et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
 
-image::images/bout_nouv_compte.png[title="Bouton de création d'un nouveau compte"] +
+image::images/bout_nouv_compte.png[title="Bouton de création d'un nouveau compte"] 
 
++
++
 
 Ce bouton va déclencher la méthode doNouveauCompte dans la class ComptesManagementController. 
 Cette méthode va appeller la fonction creerCompte provennant de la class CompteManagement, c'est cette dernière qui va s'occuper de l'ouverture de la fenêtre et qui va créer le compte du client en retournant ce compte à la class ComptesManagementController afin qu'elle puisse l'ajouter dans sa liste "ObservableList<CompteCourant>" permettant le bon affichage de tout les comptes du client.
