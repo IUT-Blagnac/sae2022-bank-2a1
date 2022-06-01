@@ -97,6 +97,15 @@ image::images/methode_creer_compte.png[title="méthode décleanchant l'ouverture
 
 ** Créditer un compte bancaire (Alexandre)
 ** Effectuer un virement de compte à compte (Leila)
+
+Pour effectuer un virement compte à compte, le guichetier doit se rendre, via l'interface graphique, dans la fenêtre de gestion des opérations. Là, il doit cliquer sur le bouton "Effectuer un virement". +
+L'appui sur ce bouton va déclencher la méthode _doVirement ()_ de la classe _OperationsManagementController_, qui va elle même appeler la fonction _enregistrerVirement ()_ qui gère l'enregistrement des virements de la classe _OperationsManagement_. Celui-ci va appeler la fonction _doOperationEditorDialog(CompteCourant cpte, CategorieOperation cm)_ de la classe _OperationEditorPane_ pour l'affichage de la fenêtre. +
+Si le client n'a pas d'autre compte actif que celui choisi pour le virement, une erreur est lancée par la fonction _displayDialog(CompteCourant cpte, CategorieOperation mode)_ de la classe _OperationEditorPaneController_. Un message d'erreur est affiché. +
+Sinon, cette même méthode génère l'affichage de l'operation editor pane. +
+Lors de l'appui sur le bouton "Effectuer virement", la méthode _doAjouter()_, qui permet d'ajouter l'opération, de la classe _OperationEditorPaneController_ est appelée. Si le montant saisi n'est pas un chiffre ou n'est pas acceptable (découvert dépassé), le virement n'est pas validé. +
+Si le virement est accepté, la fenêtre operation editor pane est fermée et l'opération stockée en tant qu'attribut de _OperationEditorPaneController_. +
+Le virement est alors effectué par la méthode _insertVirement(int idNumCompteDeb, int idNumCompteCred, double montantOp)_ de la classe _AccessOperation_, elle-même appelée dans la fonction enregistrerVirement (). L'opération est alors enregistrée dans la base de données grâce à l'appel de la procédure stockée "Virer".
+
 ** Cloturer un compte (Alexandre)
 * Pour le chef d'agence :
 ** Gérer les employés (Antoine)
