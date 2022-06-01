@@ -29,7 +29,7 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
 |         | Doc. Tec. V1 |        |    
-|         | Doc User V1 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/doc_utilisateur_V1.adoc  |RETARD V1
+|         | Doc User V1 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/doc_utilisateur_V1.adoc  |
 |         | Recette V1  |                      | 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |       | 
