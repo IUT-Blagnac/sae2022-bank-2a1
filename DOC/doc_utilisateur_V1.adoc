@@ -165,6 +165,3 @@ image::images/confirmationSuppresionEmployé.png[]
 Si une des préconditions n'est pas respectée, vous obtiendriez un message d'erreur de ce type, avec un message personnaliser qui vous expliquera les problèmes.
 
 image::images/nomVide.png[]
-
-[id = "IV. Résultats et jeux"]
-=== IV. Résultats et jeux d'essai
