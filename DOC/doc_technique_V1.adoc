@@ -34,14 +34,23 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 === II. Architecture
 
 
-* L'application _Daily Bank_ est codée en Java 8 et est encodé en UTF-8. Elle est connectée à une base de données relationnel SQL. Dans cette base de données, toute les informations de la banque y sont stocker. Voici les informations stocké sur les clients et les employés : +
+L'application _Daily Bank_ est codée en Java 8 et est encodé en UTF-8. Elle est connectée à une base de données relationnel SQL. Dans cette base de données, toute les informations de la banque y sont stocker. Voici les informations stocké sur les clients et les employés : +
 - Client : numéro identifiant, nom, prénom, adresse mail, id de l'agence, adresse postale, numéro de téléphone et s'il est inactif ou non +
 - Employé : numéro identifiant, nom, prénom, droits d'accès (Chef d'agence ou guichetier), login et mot de passe leur permettant de ce connecter à l'application. + 
+Pour ce connecter à la base de données, nous utilisons la classe "LogToDatabase.java". Le rôle de la base de données est donc de stocker toute les données relatives au bon fonctionnement de l'application. Les données de la base sont stocker sur un serveur que l'IUT héberge. +
+L'application java a pour rôle de proposer un affichage compréhensible, facile d'utilisation et sans bug de la banque. Pour pouvoir y accéder, l'utilisateur doit se logger à la base de données via l'interface de l'application. L'IHM de l'application est en JavaFX.
 
-Pour ce connecter à la base de données, nous utilisons la classe "LogToDatabase.java". Le rôle de la base de données est donc de stocker toute les données relatives au bon fonctionnement de l'application. Les données de la base sont stocker sur un serveur que l'IUT héberge. 
+Pour la version 1 de la banque, nous n'avons pas eu à utiliser de resources externers. +
 
-* L'application java a pour rôle de proposer un affichage compréhensible, facile d'utilisation et sans bug de la banque. Pour pouvoir y accéder, l'utilisateur doit se logger à la base de données via l'interface de l'application. L'IHM de l'application est en JavaFX.
-
+L'application est structuré en paquet que l'on nomme "package". Elle contient 2 package principaux (_application_ et _model_). Ces deux package sont découpé en sous-package (3 sous-package pour _application_ et 2 pour _model_). Les packages sont structuré de cette maniere :
+- application :
+  - application.control : 
+  - application.tools : 
+  - application.view : 
+- model :
+  - model.data
+  - model.orm : 
+    - model.orm.exception :
 
 
 
@@ -68,21 +77,20 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 
 * Pour le guichetier :
-** Créer un compte bancaire (Olivier)
+** Créer un compte bancaire (Olivier)::
 
-Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'    et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
+Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'employé et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
 
-image::images/bout_nouv_compte.png[title="Bouton de création d'un nouveau compte"] 
+image::images/bout_nouv_compte.png[title="Bouton de création d'un nouveau compte"]
 
+Ce bouton va déclencher la méthode doNouveauCompte :
 
-Ce bouton va déclencher la méthode doNouveauCompte dans la class ComptesManagementController. 
-Cette méthode va appeler la fonction creerCompte provenant de la class CompteManagement, c'est cette dernière qui va s'occuper de l'ouverture de la fenêtre et qui va créer le compte du client en retournant ce compte à la class ComptesManagementController afin qu'elle puisse l'ajouter dans sa liste "ObservableList<CompteCourant>" permettant le bon affichage de tout les comptes du client.
+image::images/methode_docompte.png[title="méthode décleanchant l'ouverture de la fenêtre"]
 
-Pour la création du compte, la méthode creerCompte appelle le constructeur de la class CompteEditorPane, c'est cette dernière qui va s'occuper du chargement du fichier fxml "compteeditorpane.fxml" et ainsi ouvrir la fenêtre de dialogue avec l'utilisateur.
+et c'est par l'appel de la méthode creerCompte provennant de la class CompteManagement, que la fenêtre s'ouvre.
 
-Dans CompteManagement, c'est par l'appel de la fonction "doCompteEditorDialog()" que le programme va récupérer tous les informations fournies par l'utilisateur dans la boîte de dialogue. Le compte sera créé, puis, s'il n'est pas nul, le programme appellera la méthode "insertCompteCourant(compte)" provenant de la class AccessCompteCourant afin de stocker les informations du nouveau compte dans la base de donnée.
+image::images/methode_creer_compte.png[title="méthode décleanchant l'ouverture de la fenêtre"]
 
-C'est dans cette méthode que le compte du client va être ajouté à la base donnée sur oracle par une requête SQL reprenant les différents attributs du CompteCourant passé en paramètre.
 
 
 ** Créditer un compte bancaire (Alexandre)
