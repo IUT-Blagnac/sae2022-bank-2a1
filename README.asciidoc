@@ -3,7 +3,7 @@ Equipe 2A01 :
 
 ** Leila Martinet
 ** Antoine Mazeau
-** Alexandre Benachir (TEST AP 22)
+** Alexandre Benachir
 ** Recher Olivier
 
 La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en termes de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
