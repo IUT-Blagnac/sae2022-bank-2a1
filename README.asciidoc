@@ -4,7 +4,7 @@ Equipe 2A01 :
 ** Leila Martinet
 ** Antoine Mazeau
 ** Alexandre Benachir
-** Recher Olivier
+** Recher Olivier (TEST AP)
 
 La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en termes de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
 Nous avons pour mission de reprendre cette application afin de l'améliorer et proposer de nouvelles fonctionnalités utiles à notre client. +
