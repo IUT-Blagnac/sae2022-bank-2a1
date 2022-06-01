@@ -43,7 +43,9 @@ L'application java a pour rôle de proposer un affichage compréhensible, facile
 Pour la version 1 de la banque, nous n'avons pas eu à utiliser de resources externers. +
 
 L'application est structuré en paquet que l'on nomme "package". Elle contient 2 package principaux (_application_ et _model_). Ces deux package sont découpé en sous-package (3 sous-package pour _application_ et 2 pour _model_). Les packages sont structuré de cette maniere : +
+
 * application : 
+
 application.control : 
 application.tools : 
 application.view : 
