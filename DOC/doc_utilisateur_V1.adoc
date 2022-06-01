@@ -104,13 +104,9 @@ image::images/creer_client.png[]
 
 image::images/client_desactiver.png[]
 
-* Dans Comptes client, vous pouvez efectuer plusieurs actions sur les comptes du client
+* Dans Comptes client, vous pouvez modifier les comptes du client sélectionné
 
 image::images/compte_client.png[]
-
-* Vous pouvez modifier les informations d'un compte. Si vous modifiez le solde un débit ou crédit se fera automatiquement. Le solde doit être supérieur au débit autorisé.
-
-image::images/modifier-compte.png[]
 
 * Vous pouvez notamment créer un compte bancaire. Le solde minimum à la création du compte est de 50 et le solde doit être supérieur au débit autorisé.
 
@@ -143,6 +139,16 @@ image::images/modifierEmployé.png[]
 * Vous pouvez aussi le supprimer grâce au bouton "Supprimer employé". Dans ce cas, un message de confirmation vous sera demander.
 
 image::images/confirmationSuppresionEmployé.png[]
+
+* Lors de la création ou la modification d'un employé, certaines préconditions doivent être respectées :
+- le nom ne doit pas être vide ou ne doit pas dépasser 25 caractères
+- le prénom ne doit pas être vide ou ne doit pas dépasser 25 caractères
+- l'identifiant (login) ne doit pas être vide ou ne doit pas dépasser 8 caractères
+- le mot de passe ne doit pas être vide ou ne doit pas dépasser 8 caractères
+
+Si une des préconditions n'est pas respectée, vous obtiendriez un message d'erreur de ce type, avec un message personnaliser qui vous expliquera les problèmes.
+
+image::images/nomVide.png[]
 
 [id = "IV. Résultats et jeux"]
 === IV. Résultats et jeux d'essai
