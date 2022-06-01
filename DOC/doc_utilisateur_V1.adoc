@@ -100,7 +100,7 @@ image::images/client_modif.png[]
 
 image::images/creer_client.png[]
 
-* Vous pouvez désactiver un client seulement et seulement si tous les comptes du client en question ont un solde de 0
+* Vous pouvez désactiver un client seulement et seulement si tous les comptes du client en question sont cloturer
 
 image::images/client_desactiver.png[]
 
@@ -108,7 +108,7 @@ image::images/client_desactiver.png[]
 
 image::images/compte_client.png[]
 
-* Vous pouvez notamment créer un compte bancaire
+* Vous pouvez notamment créer un compte bancaire. Le solde minimum à la création du compte est de 50 et le solde doit être supérieur au débit autorisé.
 
 image::images/client_nouv_compte.png[]
 
