@@ -104,9 +104,13 @@ image::images/creer_client.png[]
 
 image::images/client_desactiver.png[]
 
-* Dans Comptes client, vous pouvez modifier les comptes du client sélectionné
+* Dans Comptes client, vous pouvez effectuer plusieurs actions sur un compte
 
 image::images/compte_client.png[]
+
+* Vous pouvez modifier les informations d'un compte. Si vous modifiez le solde, un débit/crédit se fera automatiquement. Le solde doit être supérieur au débit autorisé.
+
+image::images/modifier-compte.png[]
 
 * Vous pouvez notamment créer un compte bancaire. Le solde minimum à la création du compte est de 50 et le solde doit être supérieur au débit autorisé.
 
