@@ -37,7 +37,6 @@ Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Le
 L'application _Daily Bank_ est codée en Java 8 et est encodé en UTF-8. Elle est connectée à une base de données relationnel SQL. Dans cette base de données, toute les informations de la banque y sont stocker. Voici les informations stocké sur les clients et les employés : +
 - Client : numéro identifiant, nom, prénom, adresse mail, id de l'agence, adresse postale, numéro de téléphone et s'il est inactif ou non +
 - Employé : numéro identifiant, nom, prénom, droits d'accès (Chef d'agence ou guichetier), login et mot de passe leur permettant de ce connecter à l'application. + 
-
 Pour ce connecter à la base de données, nous utilisons la classe "LogToDatabase.java". Le rôle de la base de données est donc de stocker toute les données relatives au bon fonctionnement de l'application. Les données de la base sont stocker sur un serveur que l'IUT héberge. +
 L'application java a pour rôle de proposer un affichage compréhensible, facile d'utilisation et sans bug de la banque. Pour pouvoir y accéder, l'utilisateur doit se logger à la base de données via l'interface de l'application. L'IHM de l'application est en JavaFX.
 
