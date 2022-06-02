@@ -105,6 +105,10 @@ Dans CompteManagement, c'est par l'appel de la fonction "doCompteEditorDialog()"
 C'est dans cette méthode que le compte du client va être ajouté à la base donnée sur oracle par une requête SQL reprenant les différents attributs du CompteCourant passé en paramètre.
 
 ===== 2. Créditer un compte bancaire (Alexandre)
+
+Le guichetier peut se rendre sur le compte bancaire d'un client et effectuer un crédit.
+En appuyant sur le bouton "Enregistrer Crédit", on déclenche la méthode _doCrédit() _ de la classe _OperationsManagementController_, qui va elle-même appeler la fonction _enregistrerCrédit ()_ qui gère l'enregistrement des crédits de la classe _OperationsManagement_. Celle-ci va appeler la fonction _doOperationEditorDialog(CompteCourant cpte, CategorieOperation cm)_ avec comme catégorie d'opérations _CREDIT_ de la classe _OperationEditorPane_ pour l'affichage de la fenêtre.
+
 ===== 3. Effectuer un virement de compte à compte (Leila)
 
 Pour effectuer un virement compte à compte, le guichetier doit se rendre, via l'interface graphique, dans la fenêtre de gestion des opérations. Là, il doit cliquer sur le bouton "Virement". +
