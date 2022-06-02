@@ -15,9 +15,9 @@
 |2    |Chef d’Agence     | Emprunt | Simuler emprunt|| | | 
 |2    |Chef d’Agence     | Emprunt | Simuler assurance|| | | 
 |2    |Guichetier     | Compte | Relevé PDF|Antoine D| | | 
-|2    |Guichetier     | CRUD Prélèvement | C|Alexandre D| | | 
-|2    |Guichetier     | CRUD Prélèvement | R|Alexandre D| | | 
-|2    |Guichetier     | CRUD Prélèvement | U|Alexandre D| | | 
+|2    |Guichetier     | CRUD Prélèvement | C|Alexandre F| | | 
+|2    |Guichetier     | CRUD Prélèvement | R|Alexandre F| | | 
+|2    |Guichetier     | CRUD Prélèvement | U|Alexandre F| | | 
 |2    |Guichetier     | CRUD Prélèvement | D|Alexandre D| | | 
 |2    |Bach     | Prélèvements automatiques | || | | 
 |2    |Bach     | Reléves mensuels | || | | 
