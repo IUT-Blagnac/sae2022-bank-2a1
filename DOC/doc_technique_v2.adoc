@@ -115,6 +115,8 @@ Si les conditions sont respectés, on récupére le mode de paiement et on crée
 
 ===== 3. Effectuer un virement de compte à compte (Leila) - V1
 
+image::images/uc_virement.png[title="Use case virements compte à compte"]
+
 Pour effectuer un virement compte à compte, le guichetier doit se rendre, via l'interface graphique, dans la fenêtre de gestion des opérations. Là, il doit cliquer sur le bouton "Virement". +
 
 image::images/bouton_virement.png[title="Bouton Virement"]
