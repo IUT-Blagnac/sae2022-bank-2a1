@@ -117,6 +117,8 @@ Si les conditions sont respectés, on récupére le mode de paiement et on crée
 
 image::images/uc_virement.png[title="Use case virements compte à compte"]
 
+Cette fonctionnalité permet aux guichetiers d'effecuter des virements de compte à compte (c'est-à-dire entre les comptes d'un même client). +
+
 Pour effectuer un virement compte à compte, le guichetier doit se rendre, via l'interface graphique, dans la fenêtre de gestion des opérations. Là, il doit cliquer sur le bouton "Virement". +
 
 image::images/bouton_virement.png[title="Bouton Virement"]
@@ -144,6 +146,8 @@ _Simulation_ => package application.control +
 _ListeSimulation_ => package application.control +
 _SimulationController_ => package application.view +
 _ListeSimulationController_ => package application.view +
+
+Cette fonctionnalité permet aux guichtiers d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
 
 image::images/uc_simulations.png[title="Use case simulations"] 
 
