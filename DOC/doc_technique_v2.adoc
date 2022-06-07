@@ -1,6 +1,6 @@
 = Daily Bank App - Documentation technique V2
 
-Nom:: Documentation technique V1
+Nom:: Documentation technique V2
 
 Date::
 08/05/2022
