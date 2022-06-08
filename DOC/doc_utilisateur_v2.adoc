@@ -131,7 +131,7 @@ image::images/debit-compte.png[]
 
 image::images/credit-compte.png[]
 
-* Quand vous faites un virement, vous pouvez choisir le compte à créditer. Le champ du montant doit contenir un nombre. Vous ne pouvez pas dépasser le débit autorisé.
+* Quand vous faites un virement, vous pouvez choisir le compte à créditer (parmi les comptes du client sélectionné). Le champ du montant doit contenir un nombre. Vous ne pouvez pas dépasser le débit autorisé.
 
 image::images/virement-compte.png[]
 
@@ -147,11 +147,11 @@ image::images/gestionEmployé.png[]
 
 image::images/nouveauEmployé.png[]
 
-* Lorsque vous sélectionner un employé, vous pouvez modifier ses informations grâce au bouton "Modifier Employé"
+* Lorsque vous sélectionnez un employé, vous pouvez modifier ses informations grâce au bouton "Modifier Employé"
 
 image::images/modifierEmployé.png[]
 
-* Vous pouvez aussi le supprimer grâce au bouton "Supprimer employé". Dans ce cas, un message de confirmation vous sera demander.
+* Vous pouvez aussi le supprimer grâce au bouton "Supprimer employé". Dans ce cas, un message de confirmation vous sera demandé.
 
 image::images/confirmationSuppresionEmployé.png[]
 
@@ -173,7 +173,5 @@ Dans la nouvelle fenêtre, rendez-vous dans le 1er onglet pour effectuer une sim
 
 image::images/simu.png[title="Fenêtre de simulation d'assurance d'emprunt"]
 
-Vous pouvez cliquer sur le bouton "Remplir". Celui-ci entre des valeurs par défaut d'un emprunt, ou, s'il a déjà été rempli, les valeurs saisies dans l'autre onglet. Cela vous permet de faciliter vos simulations. Les valeurs saisies doivent être toutes saisies, correctes et cohérentes, sinon un message d'erruer s'affichera. +
-Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les valeurs demandées.
-
-image::images/resultats_simu.png[title="Fenêtre de résultat de la simulation"]
+Vous pouvez cliquer sur le bouton "Remplir". Celui-ci entre des valeurs par défaut d'un emprunt, ou, s'il a déjà été rempli, les valeurs saisies dans l'autre onglet. Cela vous permet de faciliter vos simulations. Les valeurs saisies doivent être toutes saisies, correctes et cohérentes, sinon un message d'erreur s'affichera. +
+Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les résultats de la simulation.
