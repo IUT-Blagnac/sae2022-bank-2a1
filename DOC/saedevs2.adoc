@@ -18,8 +18,8 @@
 |2    |Guichetier     | CRUD Prélèvement | C|Alexandre F| | | 
 |2    |Guichetier     | CRUD Prélèvement | R|Alexandre F| | | 
 |2    |Guichetier     | CRUD Prélèvement | U|Alexandre F| | | 
-|2    |Guichetier     | CRUD Prélèvement | D|Alexandre D| | | 
-|2    |Bach     | Prélèvements automatiques | || | | 
+|2    |Guichetier     | CRUD Prélèvement | D|Alexandre F| | | 
+|2    |Bach     | Prélèvements automatiques | Effectuer |Alexandre F| | | 
 |2    |Bach     | Reléves mensuels | || | | 
 
 |=======================
