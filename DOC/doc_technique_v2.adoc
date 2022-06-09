@@ -201,6 +201,10 @@ Pour supprimer un prélèvement, il faut appuyer sur le bouton "Supprimer prél�
 
 ===== 2. Exécuter les prélèvements automatiques (Alexandre)
 
+image::images/uc_prelev.png[]
+
+Lorsque l’utilisateur clique sur le bouton "Effectuer prélèvements" dans la l'interface de gestion des clients, on fait appel à la méthode _doEffectuerPrelevement()_ de la classe ClientsManagementController. La méthode se connecte à la base de données et effectue la procédure correspondante en utilisant la classe AccessPrelevement. Si certains comptes ne sont pas assez approvisionés pour effectuer le prélèvement, la procédure renvoie un message en retour qui est affiché dans une boîte de dialogue par ClientsManagementController.
+Sinon elle affiche que les prélèvements ont bien été effectués.
 
 ==== Pour le chef d'agence :
 
