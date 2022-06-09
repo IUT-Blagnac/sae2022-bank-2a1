@@ -149,6 +149,8 @@ Ensuite, pour empêcher les actions sur les comptes clôturés on utilise la mé
 
 Un chef d'agence peut faire le CRUD (Create Read Update Delete) des employés. +
 
+image::images/UC-CRUD_Employe.png[]
+
 Localisation des classes utilisé:: 
 _DailyBankMainFrameController_ => package application.view +
 _DailyBankMainFrame_ => package application.control +
