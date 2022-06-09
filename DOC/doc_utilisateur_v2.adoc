@@ -200,10 +200,10 @@ image::images/update_prelev.PNG[]
 
 image::images/delete_prelev.PNG[]
 
-* Pour effectuer les prélèvements du jour, vous pouvez aller sur l'interface de gestion des clients et vous y verrez un bouton "Effectuer prélèvement". Mais Seulement si vous êtes un chef d'agence et activé.
+* Pour effectuer les prélèvements du jour, vous pouvez aller sur l'interface de gestion des clients et vous y verrez un bouton "Effectuer prélèvement" seulement si vous êtes un chef d'agence et non désactivé.
 
 image::images/exec_prelev.PNG[]
 
-* Si prélèvement ne peut pas débiter le montant qu'il était censé débiter, alors un message d'erreur est affiché sinon un message vous dit que les prélèvements ont bien été effectués.
+* Si un des prélèvements ne peut pas débiter le montant qu'il était censé débiter, alors un message d'erreur est affiché sinon un message vous dit que les prélèvements ont bien été effectués.
 
 image::images/exec_prelev2.PNG[]
