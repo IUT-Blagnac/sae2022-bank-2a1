@@ -185,6 +185,10 @@ Pour supprimer soit désactiver un employé, il faut appuyer sur le bouton "Supp
 
 ===== 1. Générer un relevé mensuel d’un compte en PDF (Antoine)
 
+Guichetier et chef d'agence peuvent générer des relevé mensuel d'un compte au format PDF.
+
+image::images/UC-GenererPDF.png[]
+
 ===== 2. Gérer (faire le « CRUD ») les prélèvements automatiques (Alexandre)
 
 image::images/uc_crud_prelev.png[]
