@@ -212,19 +212,23 @@ image::images/exec_prelev2.PNG[]
 
 image::images/OptionGenererPDF.png[]
 
-Pour commencer, vous devais choisir un mois pour lequel vous voulez générer le relevé mensuel. ATTENTION : vous devez choisir un mois fini, c'est-a-dire un mois entierement passé.
+* Pour commencer, vous devais choisir un mois pour lequel vous voulez générer le relevé mensuel. ATTENTION : vous devez choisir un mois fini, c'est-a-dire un mois entierement passé.
 
 image::images/ChoixDuMoisPDF.png[]
 
-Une fois le mois choisi, il vous suffira de choisir le nom de fichier PDF que vous voulez générer dans la case "_Choisir le nom de fichier_". Ne pas rajouter le nom de l'extension en fin (.pdf), cela ce fera automatiquement 
+* Une fois le mois choisi, il vous suffira de choisir le nom de fichier PDF que vous voulez générer dans la case "_Choisir le nom de fichier_". Ne pas rajouter le nom de l'extension en fin (.pdf), cela ce fera automatiquement 
 
 image::images/ChoisirNomFichierPDF.png[]
 
-Valider le nom en cliquant sur le bouton "_OK_"
+* Lorsque vous saisissez le nom de fichier, si ce dernier est déjà ouvert, vous obtiendrais ce message d'erreur.
+
+image::images/ErreurCreationPDF.png[]
+
+* Valider le nom en cliquant sur le bouton "_OK_"
 
 image::images/ValiderNomPDF.png[]
 
-Générer le PDF en cliquant sur le bouton "_Generer PDF_", attender quelque seconde et le PDF souvrira automatiquement
+* Générer le PDF en cliquant sur le bouton "_Generer PDF_", attender quelque seconde et le PDF souvrira automatiquement
 
 image::images/GenererLePDF.png[]
 
