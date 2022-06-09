@@ -25,21 +25,21 @@ Afin d'exécuter ces test convenablement et pour garantir un résultat significa
 Table des matières::
 <<I. Guichetiers>> +
 <<1. Fiche 1 (Créer compte)>> +
-<<2. Fiche 2 : Créditer compte>> +
-<<3. Fiche 3 : Effectuer virement>> +
-<<4. Fiche 4 : Clôturer compte>> +
-<<5. Fiche 5 : Relevé mensuel d'un compte en pdf>> +
+<<2. Fiche 2 (Créditer compte)>> +
+<<3. Fiche 3 (Effectuer virement)>> +
+<<4. Fiche 4 (Clôturer compte)>> +
+<<5. Fiche 5 (Relevé mensuel d'un compte en pdf)>> +
 <<II. Chef d'agence>> +
-<<1. Fiche 6 : CRUD prélèvements automatiques>> +
-<<2. Fiche 7 : CRUD Employés>> +
-<<3. Fiche 8 : Effectuer un débit exceptionnel>> +
-<<4. Fiche 9 : Simulations>>
+<<1. Fiche 6 (CRUD prélèvements automatiques)>> +
+<<2. Fiche 7 (CRUD Employés)>> +
+<<3. Fiche 8 (Effectuer un débit exceptionnel)>> +
+<<4. Fiche 9 (Simulations)>>
 
 
 [id = "I. Guichetiers"]
 == I. Guichetiers
 
-[id = "1. Fiche 1 : Créer compte"]
+[id = "1. Fiche 1 (Créer compte)"]
 == 1. Fiche 1 : Créer compte
 
 [options="header"]
@@ -48,7 +48,7 @@ Table des matières::
 | 1        | Test créer compte bancaire  | Créer compte bancaire     | Crée un compte pour un client déjà existant. L'identifiant du compte est unique et son solde est à 50€  | Le client existe
 |================================================================================================================================================================================================
 
-[id = "2. Fiche 2 : Créditer compte"]
+[id = "2. Fiche 2 (Créditer compte)"]
 == 2. Fiche 2 : Créditer compte
 
 [options="header"]
@@ -57,7 +57,7 @@ Table des matières::
 | 2        | Test créditer compte  | Créditer compte           | Ajoute le montant choisi au compte sélectionné. Le solde du compte est alors de ancien sole + montant crédit. Une nouvelle opération de type "Crédit" est ajoutée à ce compte  | Le compte existe et est actif, le montant du crédit n'est pas excessif
 |=======================================================================================================================================================================================================================================================================================================================
 
-[id = "3. Fiche 3 : Effectuer viremnt"]
+[id = "3. Fiche 3 (Effectuer viremnt)"]
 == 3. Fiche 3 : Effectuer virement
 
 [options="header"]
@@ -67,7 +67,7 @@ Table des matières::
 |================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 
-[id = "4. Fiche 4 : Clôturer compte"]
+[id = "4. Fiche 4 (Clôturer compte)"]
 == 4. Fiche 4 : Clôturer compte
 
 [options="header"]
@@ -76,7 +76,7 @@ Table des matières::
 | 4        | Test clôturer compte  | Clôturer compte        | Clôture un compte. Si la fermeture du compte est bien validée, plus aucune action n'est possible sur le compte, son sole est à 0  | Pour pouvoir clôturer un compte, son solde doit être à 0. Si c'est le cas, il faut valider la confirmation de fermeture du compte.
 |===================================================================================================================================================================================================================================================================================================================================
 
-[id = "5. Fiche 5 : Relevé mensuel d'un compte en pdf"]
+[id = "5. Fiche 5 (Relevé mensuel d'un compte en pdf)"]
 == 5. Fiche 5 : Relevé mensuel d'un compte en pdf
 
 [options="header"]
@@ -88,7 +88,7 @@ Table des matières::
 [id = "II. Chef d'agence"]
 === II. Chef d'agence
 
-[id = "1. Fiche 6 : CRUD prélèvements automatiques"]
+[id = "1. Fiche 6 (CRUD prélèvements automatiques)"]
 == 1. Fiche 6 : CRUD prélèvements automatiques
 
 [options="header"]
@@ -97,7 +97,7 @@ Table des matières::
 | 6        | Test CRUD prélèvements automatiques  | CRUD prélèvements automatiques  | Le montant du prélèvement est retiré le même jour de chaque mois qui a été décidé  | Le découvert autorisé ne doit pas être dépassé
 |========================================================================================================================================================================================================================
 
-[id = "2. Fiche 7 : CRUD Employés"]
+[id = "2. Fiche 7 (CRUD Employés)"]
 == 2. Fiche 7 : CRUD Employés
 
 [options="header"]
@@ -106,7 +106,7 @@ Table des matières::
 | 7        | Test CRUD Employés  | CRUD Employés          | Les données modifiées, ajoutées, supprimées doivent avoir été prises en compte  | Être chef d'agence.
 |================================================================================================================================================================
 
-[id = "3. Fiche 8 : Effectuer un débit exceptionnel"]
+[id = "3. Fiche 8 (Effectuer un débit exceptionnel)"]
 === 3. Fiche 8 : Effectuer un débit exceptionnel
 
 [options="header"]
@@ -115,7 +115,7 @@ Table des matières::
 | 8        | Test Effectuer un débit exceptionnel  | Effectuer un débit exceptionnel  | Le montant est débité du compte débiteur. Son solde est de ancien solde - montant débit  | Être chef d'agence. Le compte doit être actif
 |===============================================================================================================================================================================================================================
 
-[id = "4. Fiche 9 : Simulations"]
+[id = "4. Fiche 9 (Simulations)"]
 == 4. Fiche 9 : Simulations
 
 [options="header"]
