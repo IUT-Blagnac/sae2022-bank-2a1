@@ -220,12 +220,13 @@ Une fois le mois choisi, il vous suffira de choisir le nom de fichier PDF que vo
 
 image::images/ChoisirNomFichierPDF.png[]
 
-Générer le PDF en cliquant sur le bouton "_Generer PDF_"
-
-image::images/GenererLePDF.png[]
-
 Valider le nom en cliquant sur le bouton "_OK_"
 
 image::images/ValiderNomPDF.png[]
 
-Puis, cliquez
+Générer le PDF en cliquant sur le bouton "_Generer PDF_", attender quelque seconde et le PDF souvrira automatiquement
+
+image::images/GenererLePDF.png[]
+
+
+
