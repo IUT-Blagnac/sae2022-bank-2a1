@@ -140,23 +140,6 @@ Vous pouvez cloturer un compte d'un client en le sélectionnant et en cliquant s
 Si le solde est bien à 0, on demande confirmation à l'utilisateur pour la suppression du compte. S'il accepte on crée une variable de type AccessCompteCourant et on utilise la méthode _cloturerCompteCourant(CompteCourant cc)_ avec en paramètre le compte sélectionné. Cette méthode se connecte à la base de donnée et met à jour l'attribut "estCloture" à "O". Le programme lance une exception et rollback si jamais plusieurs lignes sont mises à jour au lieu d'une seule, sinon commit.On va ensuite actualiser la liste de compte avec la méthode _loadList()_ qui fera appel à la BD pour mettre tou les comptes dans la BD.
 Ensuite, pour empêcher les actions sur les comptes clôturés on utilise la méthode _validateComponentState()_ qui active/désactive certains boutons selon l'état du compte. Si un compte est cloturé, il ne peut pas utiliser les boutons "Supprimer Compte", "Modifier Compte" et "Voir Opérations".
 
-===== 5. Effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt (Leila) - V2
-
-Localisation des classes utilisées::
-_Simulation_ => package application.control +
-_ListeSimulation_ => package application.control +
-_SimulationController_ => package application.view +
-_ListeSimulationController_ => package application.view +
-
-Cette fonctionnalité permet aux guichtiers d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
-
-image::images/uc_simulations.png[title="Use case simulations"] 
-
-Pour pouvoir effectuer une simulation, il faut avoir sélectionné un client dans la fenêtre ClientManagement. Le bouton "Simulations" est alors activé, et cliquer dessus lance la méthode _doSimulation ()_ de la classe _ClientsManagementController_. Un nouvel objet _Simulation_ est alors créé. +
-La fenêtre Simulation est divisée en 2 parties, une pour la simulation d'emprunt et l'autre pour la simulation d'assurance d'emprunt. Les deux boutons "Remplir" font appel aux méthoes _actionRemplir1 ()_ et _actionRemplir2 ()_. Elles permettent de remplir les champs de saisies de leur partie de façon automatique. Si l'autre partie est remplie, les champs de la partie concernée sont remplies avec ses valeurs. Sinon, des valeurs correspondant à un emprunt standard sont insérées. +
-L'appui sur le bouton "Lancer la simulation" permet de lancer la simulation. Il fait appel aux méthodes _actionSimulerEmprunt ()_ pour la simulation d'emprunt et _actionSimulerAssurance ()_ pour la simulation d'assurance d'emprunt. Ces méthodes lancent des exceptions si les valeurs saisies ne sont pas correctes. Ces erreurs sont traitées et ouvrent une fenêtre d'erreur. Si toutes les valeurs sont correctes, un nouvel objet _ListeSimulation_ est créé. +
-Une nouvelle fenêtre ListeSimulation est ouverte, sensiblement différente selon le type de simulation. Un appel est fait aux fonctions _doCalculEmprunt (double montantEmprunt, double tauxEmprunt, int dureeEmprunt)_ et _doCalculAssurance(double montantEmprunt, double tauxEmprunt, int dureeEmprunt, double tauxAssurance)_ de la classe _ListeSimulationController_ selon le type de simulation. Ces fonctions renvoient un tableau de Labels qui est utilisé dans _ListeSimulation_ pour l'affichage, en ajoutant les Labels à la HBox.
-
 ==== Pour le chef d'agence :
 ===== 1. Gérer les employés (Antoine) - V1
 
@@ -221,6 +204,19 @@ Pour supprimer un prélèvement, il faut appuyer sur le bouton "Supprimer prél�
 
 ===== 1. Effectuer un Débit exceptionnel (Olivier)
 
-===== 2. Simuler un emprunt (Leila)
+===== 2. Effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt (Leila)
 
-===== 3. Simuler une assurance d’emprunt (Leila)
+Localisation des classes utilisées::
+_Simulation_ => package application.control +
+_ListeSimulation_ => package application.control +
+_SimulationController_ => package application.view +
+_ListeSimulationController_ => package application.view +
+
+Cette fonctionnalité permet aux guichtiers d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
+
+image::images/uc_simulations.png[title="Use case simulations"] 
+
+Pour pouvoir effectuer une simulation, il faut avoir sélectionné un client dans la fenêtre ClientManagement. Le bouton "Simulations" est alors activé, et cliquer dessus lance la méthode _doSimulation ()_ de la classe _ClientsManagementController_. Un nouvel objet _Simulation_ est alors créé. +
+La fenêtre Simulation est divisée en 2 parties, une pour la simulation d'emprunt et l'autre pour la simulation d'assurance d'emprunt. Les deux boutons "Remplir" font appel aux méthoes _actionRemplir1 ()_ et _actionRemplir2 ()_. Elles permettent de remplir les champs de saisies de leur partie de façon automatique. Si l'autre partie est remplie, les champs de la partie concernée sont remplies avec ses valeurs. Sinon, des valeurs correspondant à un emprunt standard sont insérées. +
+L'appui sur le bouton "Lancer la simulation" permet de lancer la simulation. Il fait appel aux méthodes _actionSimulerEmprunt ()_ pour la simulation d'emprunt et _actionSimulerAssurance ()_ pour la simulation d'assurance d'emprunt. Ces méthodes lancent des exceptions si les valeurs saisies ne sont pas correctes. Ces erreurs sont traitées et ouvrent une fenêtre d'erreur. Si toutes les valeurs sont correctes, un nouvel objet _ListeSimulation_ est créé. +
+Une nouvelle fenêtre ListeSimulation est ouverte, sensiblement différente selon le type de simulation. Un appel est fait aux fonctions _doCalculEmprunt (double montantEmprunt, double tauxEmprunt, int dureeEmprunt)_ et _doCalculAssurance(double montantEmprunt, double tauxEmprunt, int dureeEmprunt, double tauxAssurance)_ de la classe _ListeSimulationController_ selon le type de simulation. Ces fonctions renvoient un tableau de Labels qui est utilisé dans _ListeSimulation_ pour l'affichage, en ajoutant les Labels à la HBox.
