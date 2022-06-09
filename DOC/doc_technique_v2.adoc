@@ -83,7 +83,7 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 
 [id = "IV. Fonctionnalites"]
-=== IV. Fonctionnalites
+=== IV. Fonctionnalites V1
 
 
 ==== Pour le guichetier :
@@ -188,5 +188,8 @@ Pour modifier les informations d'un employé, il faut sélectionner dans l'affic
 Pour supprimer soit désactiver un employé, il faut appuyer sur le bouton "Supprimer employé" a gauche de l'affichage. Comme pour modifier un employé il faut avoir sélectionner l'employé que l'on veut supprimer. Une fois le bouton presser, la fonction _doSupprimerEmploye()_ de la classe _EmployesManagementController_ va se lancer. Elle va a son tour lancer la fonction _supprimerEmploye()_ de la classe _EmployesManagement_ qui va lancer la fonction _doClientEditorDialog()_ de la classe _Employe_. _doClientEditorDialog()_ lance la fonction _displayDialog_ de la classe _EmployeEditorPaneController_. Cette fonction sera cette fois ci lancer en mode "SUPPRESSION" et va donc directemment renvoyé à la fonction _supprimerEmploye()_ de la classe _EmployesManagement_ un employé sans aucune modification de l'employé selectionné. Ensuite, _supprimerEmploye()_ va faire appel à la fonction _deleteEmploye()_ de la classe _AccessEmploye_ qui va elle supprimer l'employe de la base de donnée. Pour finir, la fonction _supprimerEmploye()_ de la classe _EmployesManagement_ va actualisre l'affichage et affiche l'employe comme désactivé.
 
 
+=== IV. Fonctionnalites V2
+
+==== Pour le guichetier :
 
 
