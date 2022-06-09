@@ -24,12 +24,12 @@ Afin d'exécuter ces test convenablement et pour garantir un résultat significa
 
 Table des matières::
 <<I. Guichetiers>> +
-<<1. Fiche 1 : Créer compte>> +
+<<1. Fiche 1>> +
 <<2. Fiche 2 : Créditer compte>> +
 <<3. Fiche 3 : Effectuer virement>> +
 <<4. Fiche 4 : Clôturer compte>> +
-<<5. Fiche 5 : Relevé mensuel d un compte en pdf>> +
-<<II. Chef d agence>> +
+<<5. Fiche 5 : Relevé mensuel d'un compte en pdf>> +
+<<II. Chef d'agence>> +
 <<1. Fiche 6 : CRUD prélèvements automatiques>> +
 <<2. Fiche 7 : CRUD Employés>> +
 <<3. Fiche 8 : Effectuer un débit exceptionnel>> +
