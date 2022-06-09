@@ -225,7 +225,7 @@ _ListeSimulationController_ => package application.view +
 
 Cette fonctionnalité permet aux chefs d'agence d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
 
-image::images/uc_simulations.png[title="Use case simulations"] 
+
 
 Pour pouvoir effectuer une simulation, il faut avoir sélectionné un client dans la fenêtre ClientManagement. Le bouton "Simulations" est alors activé, et cliquer dessus lance la méthode _doSimulation ()_ de la classe _ClientsManagementController_. Un nouvel objet _Simulation_ est alors créé. +
 La fenêtre Simulation est divisée en 2 parties, une pour la simulation d'emprunt et l'autre pour la simulation d'assurance d'emprunt. Les deux boutons "Remplir" font appel aux méthoes _actionRemplir1 ()_ et _actionRemplir2 ()_. Elles permettent de remplir les champs de saisies de leur partie de façon automatique. Si l'autre partie est remplie, les champs de la partie concernée sont remplies avec ses valeurs. Sinon, des valeurs correspondant à un emprunt standard sont insérées. +
