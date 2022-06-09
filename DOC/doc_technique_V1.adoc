@@ -133,6 +133,8 @@ Le virement est alors effectué par la méthode _insertVirement(int idNumCompteD
 
 ===== 4. Cloturer un compte (Alexandre)
 
+image::images/uc_cloturer.png[]
+
 Vous pouvez cloturer un compte d'un client en le sélectionnant et en cliquant sur "Supprimer Compte". Cela déclenchera la méthode _doSupprimerCompte()_ qui prendra le compte sélectionné et vérifiera si le solde du compte est à 0. Le cas contraire si le solde est supérieur à 0, on affiche une alerte disant à l'utilisateur que le solde doit être à 0 avant de le cloturer sinon on fait pareil mais en disant que le solde est négatif.
 Si le solde est bien à 0, on demande confirmation à l'utilisateur pour la suppression du compte. S'il accepte on crée une variable de type AccessCompteCourant et on utilise la méthode _cloturerCompteCourant(CompteCourant cc)_ avec en paramètre le compte sélectionné. Cette méthode se connecte à la base de donnée et met à jour l'attribut "estCloture" à "O". Le programme lance une exception et rollback si jamais plusieurs lignes sont mises à jour au lieu d'une seule, sinon commit.On va ensuite actualiser la liste de compte avec la méthode _loadList()_ qui fera appel à la BD pour mettre tou les comptes dans la BD.
 Ensuite, pour empêcher les actions sur les comptes clôturés on utilise la méthode _validateComponentState()_ qui active/désactive certains boutons selon l'état du compte. Si un compte est cloturé, il ne peut pas utiliser les boutons "Supprimer Compte", "Modifier Compte" et "Voir Opérations".
