@@ -23,6 +23,7 @@ Afin d'exécuter ces test convenablement et pour garantir un résultat significa
 '''
 
 Table des matières::
+
 <<I. Guichetiers>> +
 <<1. Fiche 1 : Créer compte>> +
 <<2. Fiche 2 : Créditer compte>> +
