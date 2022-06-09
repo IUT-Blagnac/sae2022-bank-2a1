@@ -197,7 +197,7 @@ Pour supprimer soit désactiver un employé, il faut appuyer sur le bouton "Supp
 
 ===== 2. Gérer (faire le « CRUD ») les prélèvements automatiques (Alexandre)
 
-Un guichetuer peut faire le CRUD (Create Read Update Delete) des prélèvements. +
+Un guichetier peut faire le CRUD (Create Read Update Delete) des prélèvements. +
 
 * _(Read)_ +
 Pour acceder à la fenêtre de gestion des prélèvements l'utilisateur doit allez dans le menu, cliquer sur "Gestion", "Client", "Compte Client", "Voir opérations" puis "Voir prélèvements"+ 
