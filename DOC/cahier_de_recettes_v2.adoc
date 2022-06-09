@@ -1,0 +1,125 @@
+= Daily Bank App - Cahier de recettes V2
+
+Nom:: Cahier de recettes V2
+
+Date::
+09/06/2022
+
+Nom du client:: Daily Bank
+
+Equipe::
+Mazeau Antoine <antoine.mazeau31@gmail.com> +
+Benachir Alexandre <alexandre.projetair@gmail.com> +
+Recher Olivier <recher.olivier@outlook.fr> +
+Martinet Leila <leila.mrtnt1@gmail.com> +
+
+'''
+
+== I. Introduction
+
+Daily Bank est une application de gestion d'agence bancaire, qui permet aux utilisateurs (guichetiers et chefs d'agence) de gérer les clients (et leurs comptes) et/ou le personnel de l'agence. Pour vérifier le bon fonctionnement de l'application, nous fournissons ce cahier de recettes. +
+Afin d'exécuter ces test convenablement et pour garantir un résultat significatif, vérifiez d'avoir une bonne connexion internet ainsi que d'avoir les droits requis pour exécuter certaines fonctionnalités.
+
+'''
+
+Table des matières::
+<<I. Guichetiers>> +
+<<1. Fiche 1 : Créer compte>> +
+<<2. Fiche 2 : Créditer compte>> +
+<<3. Fiche 3 : Effectuer virement>> +
+<<4. Fiche 4 : Clôturer compte>> +
+<<5. Fiche 5 : Relevé mensuel d un compte en pdf>> +
+<<II. Chef d agence>> +
+<<1. Fiche 6 : CRUD prélèvements automatiques>> +
+<<2. Fiche 7 : CRUD Employés>> +
+<<3. Fiche 8 : Effectuer un débit exceptionnel>> +
+<<4. Fiche 9 : Simulations>>
+
+
+[id = "I. Guichetiers"]
+== I. Guichetiers
+
+[id = "1. Fiche 1 : Créer compte"]
+=== 1. Fiche 1 : Créer compte
+
+[options="header"]
+|================================================================================================================================================================================================
+| id Test  | Nom Test                    | Nom cas d'utilisation  | Conditions de \nsatisfaction                                                                            | Pré-conditions  
+| 1        | Test créer compte bancaire  | Créer compte bancaire     | Crée un compte pour un client déjà existant. L'identifiant du compte est unique et son solde est à 50€  | Le client existe
+|================================================================================================================================================================================================
+
+[id = "2. Fiche 2 : Créditer compte"]
+=== 2. Fiche 2 : Créditer compte
+
+[options="header"]
+|=======================================================================================================================================================================================================================================================================================================================
+| id Test  | Nom Test              | Nom cas d'utilisation  | Conditions de satisfaction                                                                                                                                                   | Pré-conditions                                                        
+| 2        | Test créditer compte  | Créditer compte           | Ajoute le montant choisi au compte sélectionné. Le solde du compte est alors de ancien sole + montant crédit. Une nouvelle opération de type "Crédit" est ajoutée à ce compte  | Le compte existe et est actif, le montant du crédit n'est pas excessif
+|=======================================================================================================================================================================================================================================================================================================================
+
+[id = "3. Fiche 3 : Effectuer viremnt"]
+=== 3. Fiche 3 : Effectuer virement
+
+[options="header"]
+|================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+| id Test  | Nom Test                 | Nom cas d'utilisation               | Conditions de satisfaction                                                                                                                                                                                                                                                     | Pré-conditions                                                                                                                                                    
+| 3        | Test effectuer virement  | Effectuer virement compte à compte  | Retire le montant saisi du compte débiteur et l'ajoute au compte créditeur. Le solde du compte débiteur est de ancien solde - montant et le solde du compte créditeur de ancien solde + montant. Une nouvelle opération de type "Virement" est créée pour chacun es 2 comptes  | Les 2 comptes existent, sont actifs et appartiennent à un même client. Le montant du virement ne doit pas faire dépasser le découvert autorisé du compte débiteur.
+|================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+
+[id = "4. Fiche 4 : Clôturer compte"]
+=== 4. Fiche 4 : Clôturer compte
+
+[options="header"]
+|===================================================================================================================================================================================================================================================================================================================================
+| id Test  | Nom Test              | Nom cas d'utilisation  | Conditions de satisfaction                                                                                                        | Pré-conditions                                                                                                                    
+| 4        | Test clôturer compte  | Clôturer compte        | Clôture un compte. Si la fermeture du compte est bien validée, plus aucune action n'est possible sur le compte, son sole est à 0  | Pour pouvoir clôturer un compte, son solde doit être à 0. Si c'est le cas, il faut valider la confirmation de fermeture du compte.
+|===================================================================================================================================================================================================================================================================================================================================
+
+[id = "5. Fiche 5 : Relevé mensuel d'un compte en pdf"]
+=== 5. Fiche 5 : Relevé mensuel d'un compte en pdf
+
+[options="header"]
+|=========================================================================================================================================================================================================================================================
+| id Test  | Nom Test                                | Nom cas d'utilisation              | Conditions de satisfaction                                                                        | Pré-conditions                                            
+| 6        | Test Relevé mensuel d'un compte en pdf  | Relevé mensuel d'un compte en pdf  | Un pdf qui s'ouvre automatiquement et qui contient le relevé d'un compte au cours du mois choisi  | Le mois doit être terminé. Le nom du pdf doit être valide.
+|=========================================================================================================================================================================================================================================================
+
+[id = "II. Chef d'agence"]
+=== II. Chef d'agence
+
+[id = "1. Fiche 6 : CRUD prélèvements automatiques"]
+=== 1. Fiche 6 : CRUD prélèvements automatiques
+
+[options="header"]
+|========================================================================================================================================================================================================================
+| id Test  | Nom Test                             | Nom cas d'utilisation           | Conditions de satisfaction                                                         | Pré-conditions                                
+| 5        | Test CRUD prélèvements automatiques  | CRUD prélèvements automatiques  | Le montant du prélèvement est retiré le même jour de chaque mois qui a été décidé  | Le découvert autorisé ne doit pas être dépassé
+|========================================================================================================================================================================================================================
+
+[id = "2. Fiche 7 : CRUD Employés"]
+=== 2. Fiche 7 : CRUD Employés
+
+[options="header"]
+|================================================================================================================================================================
+| id Test  | Nom Test            | Nom cas d'utilisation  | Conditions de satisfaction                                                      | Pré-conditions     
+| 7        | Test CRUD Employés  | CRUD Employés          | Les données modifiées, ajoutées, supprimées doivent avoir été prises en compte  | Être chef d'agence.
+|================================================================================================================================================================
+
+[id = "3. Fiche 8 : Effectuer un débit exceptionnel"]
+=== 3. Fiche 8 : Effectuer un débit exceptionnel
+
+[options="header"]
+|===============================================================================================================================================================================================================================
+| id Test  | Nom Test                              | Nom cas d'utilisation            | Conditions de satisfaction                                                               | Pré-conditions                               
+| 8        | Test Effectuer un débit exceptionnel  | Effectuer un débit exceptionnel  | Le montant est débité du compte débiteur. Son solde est de ancien solde - montant débit  | Être chef d'agence. Le compte doit être actif
+|===============================================================================================================================================================================================================================
+
+[id = "4. Fiche 9 : Simulations"]
+=== 4. Fiche 9 : Simulations
+
+[options="header"]
+|==================================================================================================================================================================================================================================================================================================================================================================
+| id Test  | Nom Test          | Nom cas d'utilisation  | Conditions de satisfaction                                                                                                                                                                                                                                | Pré-conditions                               
+| 9        | Test Simulations  | Simulations            | Les valeurs mois, capital restant début, intérêts, principal, mensualité, capital restant fin de mois (+ coût assurance et mensualité sans assurance) sont affichés. La valeur du capital restant en fin de mois à la fin du dernier mois est égale à 0.  | Être chef d'agence. Le client doit être actif
+|==================================================================================================================================================================================================================================================================================================================================================================
