@@ -12,8 +12,8 @@
 |1    |Guichetier     | Compte | Effectuer un virement|Leila F| | | 
 |1    |Guichetier     | Compte | Clôturer|Alexandre F| | | 
 |2    |Chef d’Agence     | Compte | Débit exceptionnel|| | | 
-|2    |Chef d’Agence     | Emprunt | Simuler emprunt||Leila F| | 
-|2    |Chef d’Agence     | Emprunt | Simuler assurance||Leila F| | 
+|2    |Chef d’Agence     | Emprunt | Simuler emprunt|Leila F|| | 
+|2    |Chef d’Agence     | Emprunt | Simuler assurance|Leila F|| | 
 |2    |Guichetier     | Compte | Relevé PDF|Antoine D| | | 
 |2    |Guichetier     | CRUD Prélèvement | C|Alexandre F| | | 
 |2    |Guichetier     | CRUD Prélèvement | R|Alexandre F| | | 
