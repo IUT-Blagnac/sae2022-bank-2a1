@@ -16,7 +16,8 @@ Martinet Leila <leila.mrtnt1@gmail.com> +
 Sommaire::
 <<I. Presentation>> +
 <<II. Installation>> +
-<<III. Fonctionnement>> +
+<<III. Fonctionnement V1>> +
+<<IV. Fonctionnement V2>> +
 
 '''
 
@@ -58,8 +59,8 @@ image::images/nouv_fichier.png[title="click Droit > Ouvrir"]
 image::images/ouvrir_jar.png[title="click Droit > Ouvrir"]
 [%hardbreaks]
 
-[id = "III. Fonctionnement"]
-=== III. Fonctionnement
+[id = "III. Fonctionnement V1"]
+=== III. Fonctionnement V1
 
 L'application fonctionne pour les guichetiers de la banque ainsi que pour les chefs d'agence qui ont des fonctionnalité supplémentaire. Nous allons vous présenter comment l'application fonctionne.
 
@@ -175,3 +176,6 @@ image::images/simu.png[title="Fenêtre de simulation d'assurance d'emprunt"]
 
 Vous pouvez cliquer sur le bouton "Remplir". Celui-ci entre des valeurs par défaut d'un emprunt, ou, s'il a déjà été rempli, les valeurs saisies dans l'autre onglet. Cela vous permet de faciliter vos simulations. Les valeurs saisies doivent être toutes saisies, correctes et cohérentes, sinon un message d'erreur s'affichera. +
 Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les résultats de la simulation.
+
+[id = "IV. Fonctionnement V2"]
+=== IV. Fonctionnement V2
