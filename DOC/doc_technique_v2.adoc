@@ -89,7 +89,7 @@ image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 ==== Pour le guichetier :
 
-=====  1. Créer un compte bancaire (Olivier) - V1
+=====  1. Créer un compte bancaire (Olivier)
 
 Le guichetier peut créer un nouveau compte à un client existant par le biais d'une interface graphique de discussion entre l'employé et la base de donnée. L'ouverture de cet fenêtre ce fait par l'activation du bouton "nouveau compte". 
 
@@ -105,7 +105,11 @@ Dans CompteManagement, c'est par l'appel de la fonction "doCompteEditorDialog()"
 
 C'est dans cette méthode que le compte du client va être ajouté à la base donnée sur oracle par une requête SQL reprenant les différents attributs du CompteCourant passé en paramètre.
 
-===== 2. Créditer un compte bancaire (Alexandre) - V1
+===== 2. Créditer un compte bancaire (Alexandre)
+
+image::images/uc_crediter.png[]
+
+image::images/dc_crediter.PNG[]
 
 Le guichetier peut se rendre sur le compte bancaire d'un client et effectuer un crédit.
 En appuyant sur le bouton "Enregistrer Crédit", on déclenche la méthode _doCrédit() _ de la classe _OperationsManagementController_, qui va elle-même appeler la fonction _enregistrerCrédit ()_ qui gère l'enregistrement des crédits de la classe _OperationsManagement_. Celle-ci va appeler la fonction _doOperationEditorDialog(CompteCourant cpte, CategorieOperation cm)_ avec comme catégorie d'opérations _CREDIT_ de la classe _OperationEditorPane_ pour l'affichage de la fenêtre. Celle-ci fait appelle à la méthode _displayDialog(CompteCourant cpte, CategorieOperation mode)_ qui va configurer l'interface en fonction de la catégorie d'opération. A la fin de celle-ci, on affiche l'interface bien configuré on attend que l'utilisateur ajoute le montant et que la méthode retourne une opération.
@@ -114,11 +118,7 @@ Si les conditions sont respectés, on récupére le mode de paiement et on crée
 
 
 
-===== 3. Effectuer un virement de compte à compte (Leila) - V1
-
-image::images/uc_virement.png[title="Use case virements compte à compte"]
-
-Cette fonctionnalité permet aux guichetiers d'effecuter des virements de compte à compte (c'est-à-dire entre les comptes d'un même client). +
+===== 3. Effectuer un virement de compte à compte (Leila)
 
 Pour effectuer un virement compte à compte, le guichetier doit se rendre, via l'interface graphique, dans la fenêtre de gestion des opérations. Là, il doit cliquer sur le bouton "Virement". +
 
@@ -134,20 +134,23 @@ Lors de l'appui sur le bouton "Effectuer virement", la méthode _doAjouter()_, q
 Si le virement est accepté, la fenêtre operation editor pane est fermée et l'Opération stockée en tant qu'attribut de _OperationEditorPaneController_. +
 Le virement est alors effectué par la méthode _insertVirement(int idNumCompteDeb, int idNumCompteCred, double montantOp)_ de la classe _AccessOperation_, elle-même appelée dans la fonction enregistrerVirement (). L'Opération est alors enregistrée dans la base de données grâce à l'appel de la procédure stockée "Virer".
 
-===== 4. Cloturer un compte (Alexandre) - V1
+===== 4. Cloturer un compte (Alexandre)
+
+image::images/uc_cloturer.png[]
+
+image::images/dc_cloturer.PNG[]
 
 Vous pouvez cloturer un compte d'un client en le sélectionnant et en cliquant sur "Supprimer Compte". Cela déclenchera la méthode _doSupprimerCompte()_ qui prendra le compte sélectionné et vérifiera si le solde du compte est à 0. Le cas contraire si le solde est supérieur à 0, on affiche une alerte disant à l'utilisateur que le solde doit être à 0 avant de le cloturer sinon on fait pareil mais en disant que le solde est négatif.
 Si le solde est bien à 0, on demande confirmation à l'utilisateur pour la suppression du compte. S'il accepte on crée une variable de type AccessCompteCourant et on utilise la méthode _cloturerCompteCourant(CompteCourant cc)_ avec en paramètre le compte sélectionné. Cette méthode se connecte à la base de donnée et met à jour l'attribut "estCloture" à "O". Le programme lance une exception et rollback si jamais plusieurs lignes sont mises à jour au lieu d'une seule, sinon commit.On va ensuite actualiser la liste de compte avec la méthode _loadList()_ qui fera appel à la BD pour mettre tou les comptes dans la BD.
 Ensuite, pour empêcher les actions sur les comptes clôturés on utilise la méthode _validateComponentState()_ qui active/désactive certains boutons selon l'état du compte. Si un compte est cloturé, il ne peut pas utiliser les boutons "Supprimer Compte", "Modifier Compte" et "Voir Opérations".
 
+
 ==== Pour le chef d'agence :
-===== 1. Gérer les employés (Antoine) - V1
+===== 1. Gérer les employés (Antoine)
 
 Un chef d'agence peut faire le CRUD (Create Read Update Delete) des employés. +
 
-image::images/UC-CRUD_employe.png[]
-
-Localisation des classes utilisées:: 
+Localisation des classes utilisé:: 
 _DailyBankMainFrameController_ => package application.view +
 _DailyBankMainFrame_ => package application.control +
 _EmployeManagement_ => package application.control +
