@@ -183,3 +183,18 @@ Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer 
 * Dans cette version, vous pouvez maintenant gérer des prélèvements. Pour cela vous pouvez aller voir dans les opérations d'un compte, il y a maintenant un bouton "Voir Prelevement".
 
 image::images/voir_prelev.PNG[]
+
+* En appuyant sur ce bouton, vous pouvez voir la liste des prélèvements du compe que vous avez sélectionné auparavant.
+
+image::images/read_prelev.PNG[]
+
+* Vous pouvez créer des prélèvements seulement si montant est supérieur à 0 et que la date est entre 1 et 28.
+
+image::images/create_prelev.PNG[]
+
+* Vous pouvez également les modifier avec les mêmes préconditions que précedemment.
+
+image::images/create_prelev.PNG[]
+
+* Et vous pouvez aussi en supprimer avec une confirmation.
+image::images/delete_prelev.PNG[]
