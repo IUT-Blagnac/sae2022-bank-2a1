@@ -207,3 +207,25 @@ image::images/exec_prelev.PNG[]
 * Si un des prélèvements ne peut pas débiter le montant qu'il était censé débiter, alors un message d'erreur est affiché sinon un message vous dit que les prélèvements ont bien été effectués.
 
 image::images/exec_prelev2.PNG[]
+
+* En tant que guichetier ou chef d'agence, vous pouvez désormais générer un relevé mensuel d’un compte en PDF. Pour cela, il vous suffira de vous rendre dans la page gestion des opérations et vous aurez accès au menu de génération de PDF.
+
+image::images/OptionGenererPDF.PNG[]
+
+Pour commencer, vous devais choisir un mois pour lequel vous voulez générer le relevé mensuel. ATTENTION : vous devez choisir un mois fini, c'est-a-dire un mois entierement passé.
+
+image::images/ChoixDuMoisPDF.PNG[]
+
+Une fois le mois choisi, il vous suffira de choisir le nom de fichier PDF que vous voulez générer dans la case "_Choisir le nom de fichier_". Ne pas rajouter le nom de l'extension en fin (.pdf), cela ce fera automatiquement 
+
+image::images/ChoisirNomFichierPDF.PNG[]
+
+Générer le PDF en cliquant sur le bouton "_Generer PDF_"
+
+image::images/GenererLePDF.PNG[]
+
+Valider le nom en cliquant sur le bouton "_OK_"
+
+image::images/ValiderNomPDF.PNG[]
+
+Puis, cliquez
