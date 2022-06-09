@@ -166,7 +166,7 @@ Si une des préconditions n'est pas respectée, vous obtiendriez un message d'er
 
 image::images/nomVide.png[]
 
-* Le guichetier peut effectuer des simulations. Pour cela, vous devez sélectionner un client et cliquer sur le bouton "Simulations". +
+* Le chef d'agence peut effectuer des simulations. Pour cela, vous devez sélectionner un client et cliquer sur le bouton "Simulations". +
 
 image::images/fenetre_simu.png[title="Fenêtre de gestion des clients"]
 
