@@ -179,3 +179,7 @@ Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer 
 
 [id = "IV. Fonctionnement V2"]
 === IV. Fonctionnement V2
+
+* Dans cette version, vous pouvez maintenant gérer des prélèvements. Pour cela vous pouvez aller voir dans les opérations d'un compte, il y a maintenant un bouton "Voir Prelevement".
+
+image::images/voir_prelev.png[]
