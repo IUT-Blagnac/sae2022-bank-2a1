@@ -17,7 +17,8 @@ Sommaire::
 <<I. Presentation>> +
 <<II. Architecture>> +
 <<III. Analyse existant>> +
-<<IV. Fonctionnalites>> +
+<<IV. Fonctionnalites V1>> +
+<<V. Fonctionnalites V2>> +
 
 '''
 
