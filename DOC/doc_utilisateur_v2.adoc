@@ -228,7 +228,7 @@ image::images/ErreurCreationPDF.png[]
 
 image::images/ValiderNomPDF.png[]
 
-* Générer le PDF en cliquant sur le bouton "_Generer PDF_", attender quelque seconde et le PDF souvrira automatiquement
+* Générer le PDF en cliquant sur le bouton "_Generer PDF_", attender quelque seconde et le PDF s'ouvrira automatiquement
 
 image::images/GenererLePDF.png[]
 
