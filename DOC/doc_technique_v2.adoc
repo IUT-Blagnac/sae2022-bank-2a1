@@ -223,7 +223,7 @@ _ListeSimulation_ => package application.control +
 _SimulationController_ => package application.view +
 _ListeSimulationController_ => package application.view +
 
-Cette fonctionnalité permet aux guichtiers d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
+Cette fonctionnalité permet aux chefs d'agence d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
 
 image::images/uc_simulations.png[title="Use case simulations"] 
 
