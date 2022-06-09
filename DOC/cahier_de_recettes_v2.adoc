@@ -17,7 +17,7 @@ Martinet Leila <leila.mrtnt1@gmail.com> +
 
 == I. Introduction
 
-Daily Bank est une application de gestion d'agence bancaire, qui permet aux utilisateurs (guichetiers et chefs d'agence) de gérer les clients (et leurs comptes) et/ou le personnel de l'agence. Pour vérifier le bon fonctionnement de l'application, nous fournissons ce cahier de recettes. +
+Daily Bank est une application de gestion d'agence bancaire, qui permet aux utilisateurs (guichetiers et chefs d'agence) de gérer les clients (et leurs comptes) et/ou le personnel de l'agence. Pour vérifier le bon fonctionnement de l'application, nous fournissons ce cahier de recettes, qui contient plusieurs fiches de test. +
 Afin d'exécuter ces test convenablement et pour garantir un résultat significatif, vérifiez d'avoir une bonne connexion internet ainsi que d'avoir les droits requis pour exécuter certaines fonctionnalités.
 
 '''
@@ -45,7 +45,7 @@ Table des matières::
 
 [options="header"]
 |================================================================================================================================================================================================
-| id Test  | Nom Test                    | Nom cas d'utilisation  | Conditions de \nsatisfaction                                                                            | Pré-conditions  
+| id Test  | Nom Test                    | Nom cas d'utilisation  | Conditions de satisfaction                                                                            | Pré-conditions  
 | 1        | Test créer compte bancaire  | Créer compte bancaire     | Crée un compte pour un client déjà existant. L'identifiant du compte est unique et son solde est à 50€  | Le client existe
 |================================================================================================================================================================================================
 
