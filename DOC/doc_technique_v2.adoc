@@ -189,6 +189,14 @@ Guichetier et chef d'agence peuvent générer des relevé mensuel d'un compte au
 
 image::images/UC-GenererPDF.png[]
 
+Le menu de génération des PDF ce situe dans la fenêtre "Gestion des opérations" en bas a droite. Il est composé d'un bouton "Generer PDF" qui générera le PDF lorsque toute les conditions seront remplies (_cf._ doc utilisateur v2), un TextField qui permettre de chosir le nom du fichier PDF, un bouton "OK" qui validera le nom choisi et une ComboBox qui permettra de choisir le mois duquel on veut générer le relevé. +
+
+Au lancement de la fenêtre, grâce à la fonction _configure()_ on initialise le TextField à "Choisir le nom de fichier" et on lance la fonction _confifComboBox()_ qui va configurer la ComboBox en y ajoutant les mois que l'utilisateur pourra choisir pour généré le PDF. Initialement, le bouton "OK" sera griser lors de l'appel de la fonction _configure()_. De plus, on ajoute un listener sur la ComboBox qui des qu'un mois sera selectionner lancera la fonction _validateComponentState()_. Cette fonction se charge de vérifier que les conditions (_cf._ doc utilisateur v2) sont respecter : si elles le sont, le boutons "Generer PDF" sera dégriser et sinon il restera griser. +
+
+Ensuite, la fonction _doValiderNomPDF()_ sera lancer à chaque touche taper et va récuperer le texte dans le TextField et tester si ce nom est valable. S'il l'est le bouton "OK" sera dégriser et sinon il le restera. Lorsque l'utilisateur aura renter un nom valide, le bouton "OK" sera dégriser, et a sa pression il lancera la fonction _doEnregistrerNomPDF()_. Cette fonction fonction enregistre dans le champs _this.pdfFileName_ le nom du PDF,désactive le TextField ainsi que le bouton "OK". Et elle va relancer la fonction _validateComponentState()_. +
+
+Pour finir, le bouton "Generer PDF" lance la fonction _doGenererPdf()_ qui va créer un document et une instance de sortie qui permettra d'enregistrer le PDF crée pour l'ouvrir. Une fois le document créer, elle va appeller la fonction _addContent()_ sur ce document. Cette fonction ser charge de remplir toute les informations dans le PDF. Une fois cela fais, la fonction _doGenererPdf()_ va ouvrir et afficher le document PDF.
+
 ===== 2. Gérer (faire le « CRUD ») les prélèvements automatiques (Alexandre)
 
 image::images/uc_crud_prelev.png[]
