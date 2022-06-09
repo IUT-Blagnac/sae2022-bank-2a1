@@ -195,11 +195,11 @@ image::images/UC-GenererPDF.png[]
 Le menu de génération des PDF ce situe dans la fenêtre "Gestion des opérations" en bas a droite. Il est composé d'un bouton "Generer PDF" qui générera le PDF lorsque toute les conditions seront remplies (_cf._ doc utilisateur v2), un TextField qui permettre de chosir le nom du fichier PDF, un bouton "OK" qui validera le nom choisi et une ComboBox qui permettra de choisir le mois duquel on veut générer le relevé. +
 
 Nom des attributs important::
-bouton "Generer PDF" => _btnGenererPdf_
-TextField de saisie => _txtNomFichierPdf_
-bouton "OK" => _btnValidNomPDF_
-ComboBox => _cbMois_
-Nom du ficheir PDF à créer => _pdfFileName_
+bouton "Generer PDF" => _btnGenererPdf_ +
+TextField de saisie => _txtNomFichierPdf_ +
+bouton "OK" => _btnValidNomPDF_ +
+ComboBox => _cbMois_ +
+Nom du ficheir PDF à créer => _pdfFileName_ +
 
 Au lancement de la fenêtre, grâce à la fonction _configure()_ on initialise le TextField à "Choisir le nom de fichier" et on lance la fonction _confifComboBox()_ qui va configurer la ComboBox en y ajoutant les mois que l'utilisateur pourra choisir pour généré le PDF. Initialement, le bouton "OK" sera griser lors de l'appel de la fonction _configure()_. De plus, on ajoute un listener sur la ComboBox qui des qu'un mois sera selectionner lancera la fonction _validateComponentState()_. Cette fonction se charge de vérifier que les conditions (_cf._ doc utilisateur v2) sont respecter : si elles le sont, le boutons "Generer PDF" sera dégriser et sinon il restera griser. +
 
