@@ -54,7 +54,7 @@ L'application _Daily Bank_ est codée en Java 8 et est encodé en UTF-8. Elle es
 Pour ce connecter à la base de données, nous utilisons la classe "LogToDatabase.java". Le rôle de la base de données est donc de stocker toute les données relatives au bon fonctionnement de l'application. Les données de la base sont stocker sur un serveur que l'IUT héberge. +
 L'application java a pour rôle de proposer un affichage compréhensible, facile d'utilisation et sans bug de la banque. Pour pouvoir y accéder, l'utilisateur doit se logger à la base de données via l'interface de l'application. L'IHM de l'application est en JavaFX.
 
-Pour la version 1 de la banque, nous n'avons pas eu à utiliser de resources externers. +
+Pour la version 1 de la banque, nous n'avons pas eu à utiliser de resources externes. Cependant,pour la version 2 de l'application de la banque, nous avons utilisé un fichier jar externe qui est itextpdf-5.4.0 qui permet de créer des documents pdf en JAVA.+
 
 L'application est structuré en paquet que l'on nomme "package". Elle contient 2 package principaux (_application_ et _model_). Ces deux package sont découpé en sous-package (3 sous-package pour _application_ et 2 pour _model_). Les packages sont structuré de cette maniere : +
 - application : application.control, application.tools, application.view +
@@ -212,7 +212,7 @@ _ListeSimulation_ => package application.control +
 _SimulationController_ => package application.view +
 _ListeSimulationController_ => package application.view +
 
-Cette fonctionnalité permet aux chefs d'agence d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
+Cette fonctionnalité permet aux guichtiers d'effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt.
 
 image::images/uc_simulations.png[title="Use case simulations"] 
 
