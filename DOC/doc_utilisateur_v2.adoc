@@ -194,7 +194,7 @@ image::images/create_prelev.PNG[]
 
 * Vous pouvez également les modifier avec les mêmes préconditions que précedemment.
 
-image::images/create_prelev.PNG[]
+image::images/update_prelev.PNG[]
 
 * Et vous pouvez aussi en supprimer avec une confirmation.
 
