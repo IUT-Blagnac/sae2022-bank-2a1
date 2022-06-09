@@ -182,6 +182,8 @@ Pour supprimer soit désactiver un employé, il faut appuyer sur le bouton "Supp
 
 ===== 2. Gérer (faire le « CRUD ») les prélèvements automatiques (Alexandre)
 
+image::images/uc_crud_prelev.png[]
+
 Un guichetier peut faire le CRUD (Create Read Update Delete) des prélèvements. +
 
 * _(Read)_ +
