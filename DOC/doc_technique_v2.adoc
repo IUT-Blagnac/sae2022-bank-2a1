@@ -246,6 +246,8 @@ _OperationManagement_ => package application.control +
 _OperationEditorPane_ => package application.control +
 _OperationEditorPaneController_ => package application.view +
 
+image:: images/uc_debit_exceptionnel.png[]
+
 Chaque compte bancaire possède un seuil de débit autorisé bloquant tout débit qui entrainerai le solde du compte sous ce seuil minimum. Cependant cette fonctionnalité disponible uniquement pour les chefs d'agence permet de faire abstraction de cette limite et d'enregistrer un débit exceptionnel qui s'effectura dans tout les cas, que le seuil soit franchi ou non.
 
 Pour réaliser cette opération, il faut se placer dans l'espace  _OperationManagement_. En effet, lors que le bouton _"enregistrer un debit"_ sera activé, la methode _enregistrerDebit()_ va être appellé, qui elle même va directement ouvrir la fenêtre d'enregistrement débit par la classe _OperationEditorPane_ qui charge le fichier _operationeditorpane.fxml_. +
