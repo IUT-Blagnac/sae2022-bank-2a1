@@ -166,17 +166,6 @@ Si une des préconditions n'est pas respectée, vous obtiendriez un message d'er
 
 image::images/nomVide.png[]
 
-* Le chef d'agence peut effectuer des simulations. Pour cela, vous devez sélectionner un client et cliquer sur le bouton "Simulations". +
-
-image::images/fenetre_simu.png[title="Fenêtre de gestion des clients"]
-
-Dans la nouvelle fenêtre, rendez-vous dans le 1er onglet pour effectuer une simulation d'assurance ou dans le deuxième onglet pour une simulation d'assurance d'emprunt. +
-
-image::images/simu.png[title="Fenêtre de simulation d'assurance d'emprunt"]
-
-Vous pouvez cliquer sur le bouton "Remplir". Celui-ci entre des valeurs par défaut d'un emprunt, ou, s'il a déjà été rempli, les valeurs saisies dans l'autre onglet. Cela vous permet de faciliter vos simulations. Les valeurs saisies doivent être toutes saisies, correctes et cohérentes, sinon un message d'erreur s'affichera. +
-Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les résultats de la simulation.
-
 [id = "IV. Fonctionnement V2"]
 === IV. Fonctionnement V2
 
@@ -232,5 +221,13 @@ image::images/ValiderNomPDF.png[]
 
 image::images/GenererLePDF.png[]
 
+* Le chef d'agence peut effectuer des simulations. Pour cela, vous devez sélectionner un client et cliquer sur le bouton "Simulations". +
 
+image::images/fenetre_simu.png[title="Fenêtre de gestion des clients"]
 
+Dans la nouvelle fenêtre, rendez-vous dans le 1er onglet pour effectuer une simulation d'assurance ou dans le deuxième onglet pour une simulation d'assurance d'emprunt. +
+
+image::images/simu.png[title="Fenêtre de simulation d'assurance d'emprunt"]
+
+Vous pouvez cliquer sur le bouton "Remplir". Celui-ci entre des valeurs par défaut d'un emprunt, ou, s'il a déjà été rempli, les valeurs saisies dans l'autre onglet. Cela vous permet de faciliter vos simulations. Les valeurs saisies doivent être toutes saisies, correctes et cohérentes, sinon un message d'erreur s'affichera. +
+Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les résultats de la simulation.
