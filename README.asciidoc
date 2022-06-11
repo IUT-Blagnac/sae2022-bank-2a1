@@ -40,13 +40,13 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 |         | Gantt V3 à jour   |                      | 
 |         | `jar` projet |    | 
 | 05/06   | Gantt V3 à Jour  |    |  
-|         | Doc. Util. V2 |         |           
+|         | Doc. Util. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/118a89ae81a6762ce506aeca53df14377ae4b999/DOC/doc_utilisateur_v2.adoc |           
 |         | Doc. Tec. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/81d39c7e01b0f8ece30dbb714b22d15175213c41/DOC/doc_technique_v2.adoc    |     
 |         | Code V2     |                       |
 |         | Recette V2  |   |
 |         | `jar` projet |     |
 |12/06   | Gantt V3 à Jour  |    |  
-|         | Doc. Util. V3 |         |           
+|         | Doc. Util. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/118a89ae81a6762ce506aeca53df14377ae4b999/DOC/doc_utilisateur_v2.adoc |           
 |         | Doc. Tec. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/81d39c7e01b0f8ece30dbb714b22d15175213c41/DOC/doc_technique_v2.adoc  |     
 |         | Code V3     |                       |
 |         | Recette V3  |   |
