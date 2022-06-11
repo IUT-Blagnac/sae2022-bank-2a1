@@ -241,6 +241,25 @@ Sinon elle affiche que les prélèvements ont bien été effectués.
 
 ===== 1. Effectuer un Débit exceptionnel (Olivier)
 
+Localisation des classes utilisées::
+_OperationManagement_ => package application.control +
+_OperationEditorPane_ => package application.control +
+_OperationEditorPaneController_ => package application.view +
+
+Chaque compte bancaire possède un seuil de débit autorisé bloquant tout débit qui entrainerai le solde du compte sous ce seuil minimum. Cependant cette fonctionnalité disponible uniquement pour les chefs d'agence permet de faire abstraction de cette limite et d'enregistrer un débit exceptionnel qui s'effectura dans tout les cas, que le seuil soit franchi ou non.
+
+Pour réaliser cette opération, il faut se placer dans l'espace  _OperationManagement_. En effet, lors que le bouton _"enregistrer un debit"_ sera activé, la methode _enregistrerDebit()_ va être appellé, qui elle même va directement ouvrir la fenêtre d'enregistrement débit par la classe _OperationEditorPane_ qui charge le fichier _operationeditorpane.fxml_. +
+
+image::images/bouton_debit
+image::images/fenetre_operation
+
+Le débit exceptionnel s'effectue comme pour un débit classique, si l'employé actif n'est pas un chef d'agence, le bouton _"Debit exceptionnel"_ sera grisé, sinon, par un clique le débit s'effectue. Ce controle est réaliser par la fonction _displayDialog()_ de la classe _OperationEditorPaneController_. +
+ Une fois ce bouton cliquer, la fonction _doDebitExceptionnel()_ de la classe _OperationEditorPaneController_ va être lancé. Elle applique un débit classique sans vérification de dépassement du seuil minimum et elle va modifier l'attribut _private boolean IsDebitExceptionnel_ (cette attribut est recupérable par la fonction _getIsDebitExceptionnel()_). Une fois l'opération effectué, la fenêtre se ferme et la sauvegarde de cet opération s'effectue dans la méthode _enregistrerDebit()_ de la _OperationManagement_ où il sera tester si le débit effectué était exceptionnel ou non. +
+ Dans le premier cas, la méthode _insertDebitExceptionnel()_ de la classe _AccessOperation_ va être appellé. Il s'agit de la méthode qui va enregistrer dans la base de donnée l'opération effectuée. C'est elle qui va appellé la procédure SQL "DEBITER_EXCEPTIONNEL" qui est basé sur le code de la procédure "DEBITER", mais qui toutefois, ne fait pas les vérifications de dépassement du seuil de débit autorisé.
+ Dans le second cas le débit est normale est s'effectue avec tout les vérification nécessaire. +
+ A noter qu'un débit exceptionnel peut-être effectué même si ce dernier ne dépasse pas ce seuil.
+ 
+ 
 ===== 2. Effectuer des simulations d'emprunt et des simulations d'assurance d'emprunt (Leila)
 
 Localisation des classes utilisées::
