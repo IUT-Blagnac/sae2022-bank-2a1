@@ -250,8 +250,8 @@ Chaque compte bancaire possède un seuil de débit autorisé bloquant tout débi
 
 Pour réaliser cette opération, il faut se placer dans l'espace  _OperationManagement_. En effet, lors que le bouton _"enregistrer un debit"_ sera activé, la methode _enregistrerDebit()_ va être appellé, qui elle même va directement ouvrir la fenêtre d'enregistrement débit par la classe _OperationEditorPane_ qui charge le fichier _operationeditorpane.fxml_. +
 
-image::images/bouton_debit
-image::images/fenetre_operation
+image::images/bouton_debit.png[title="Bouton d'ouverture de la fenêtre d'enregistrement"]
+image::images/fenetre_operation.png[title="Fenêtre d'enregistrement d'opérations"]
 
 Le débit exceptionnel s'effectue comme pour un débit classique, si l'employé actif n'est pas un chef d'agence, le bouton _"Debit exceptionnel"_ sera grisé, sinon, par un clique le débit s'effectue. Ce controle est réaliser par la fonction _displayDialog()_ de la classe _OperationEditorPaneController_. +
  Une fois ce bouton cliquer, la fonction _doDebitExceptionnel()_ de la classe _OperationEditorPaneController_ va être lancé. Elle applique un débit classique sans vérification de dépassement du seuil minimum et elle va modifier l'attribut _private boolean IsDebitExceptionnel_ (cette attribut est recupérable par la fonction _getIsDebitExceptionnel()_). Une fois l'opération effectué, la fenêtre se ferme et la sauvegarde de cet opération s'effectue dans la méthode _enregistrerDebit()_ de la _OperationManagement_ où il sera tester si le débit effectué était exceptionnel ou non. +
