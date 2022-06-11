@@ -230,4 +230,16 @@ Dans la nouvelle fenêtre, rendez-vous dans le 1er onglet pour effectuer une sim
 image::images/simu.png[title="Fenêtre de simulation d'assurance d'emprunt"]
 
 Vous pouvez cliquer sur le bouton "Remplir". Celui-ci entre des valeurs par défaut d'un emprunt, ou, s'il a déjà été rempli, les valeurs saisies dans l'autre onglet. Cela vous permet de faciliter vos simulations. Les valeurs saisies doivent être toutes saisies, correctes et cohérentes, sinon un message d'erreur s'affichera. +
-Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les résultats de la simulation.
+Une fois toutes les valeurs entrées, vous pouvez cliquer sur le bouton "Lancer la simulation". Une nouvelle fenêtre s'ouvre avec les résultats de la simulation. +
+
+*Une autre fonctionnalité de cette deuxième version est la possibilité si vous êtes chef d'agence, d'effectuer un débit exceptionnel sur un compte client dont le montant du débit dépasse le débit autorisé du client. +
+
+image::images/fenetre_operation.png[title="Fenêtre d'enregistrement d'opérations"]
+
+*Le chef d'agence a le choix d'effectuer un débit traditionnel ou bien d'appliquer un débit exceptionnel selon le bouton choisi. +
+
+image::images/deux_boutons.png[title="choix du type de débit"]
+
+*A noter qu'un guichetier n'a pas accès à cette fonctionnalité, le bouton apparaîtra ainsi grisé pour l'employé. +
+
+image::images/fenetre_grise.png[title="bouton grisé"]
