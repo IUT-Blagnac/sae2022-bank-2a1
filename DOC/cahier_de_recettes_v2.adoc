@@ -29,7 +29,7 @@ Table des matières::
 <<3. Fiche 3 (Effectuer virement)>> +
 <<4. Fiche 4 (Clôturer compte)>> +
 <<5. Fiche 5 (Relevé mensuel d'un compte en pdf)>> +
-<<II. Chef d'agence>> +
+<<II. Chef d agence>> +
 <<1. Fiche 6 (CRUD prélèvements automatiques)>> +
 <<2. Fiche 7 (CRUD Employés)>> +
 <<3. Fiche 8 (Effectuer un débit exceptionnel)>> +
@@ -57,7 +57,7 @@ Table des matières::
 | 2        | Test créditer compte  | Créditer compte           | Ajoute le montant choisi au compte sélectionné. Le solde du compte est alors de ancien sole + montant crédit. Une nouvelle opération de type "Crédit" est ajoutée à ce compte  | Le compte existe et est actif, le montant du crédit n'est pas excessif
 |=======================================================================================================================================================================================================================================================================================================================
 
-[id = "3. Fiche 3 (Effectuer viremnt)"]
+[id = "3. Fiche 3 (Effectuer virement)"]
 == 3. Fiche 3 : Effectuer virement
 
 [options="header"]
@@ -85,7 +85,7 @@ Table des matières::
 | 5        | Test Relevé mensuel d'un compte en pdf  | Relevé mensuel d'un compte en pdf  | Un pdf qui s'ouvre automatiquement et qui contient le relevé d'un compte au cours du mois choisi  | Le mois doit être terminé. Le nom du pdf doit être valide.
 |=========================================================================================================================================================================================================================================================
 
-[id = "II. Chef d'agence"]
+[id = "II. Chef d agence"]
 == II. Chef d'agence
 
 [id = "1. Fiche 6 (CRUD prélèvements automatiques)"]
