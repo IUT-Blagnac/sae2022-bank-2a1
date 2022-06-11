@@ -28,7 +28,7 @@ Table des matières::
 <<2. Fiche 2 (Créditer compte)>> +
 <<3. Fiche 3 (Effectuer virement)>> +
 <<4. Fiche 4 (Clôturer compte)>> +
-<<5. Fiche 5 (Relevé mensuel d'un compte en pdf)>> +
+<<5. Fiche 5 (Relevé mensuel d un compte en pdf)>> +
 <<II. Chef d agence>> +
 <<1. Fiche 6 (CRUD prélèvements automatiques)>> +
 <<2. Fiche 7 (CRUD Employés)>> +
@@ -76,7 +76,7 @@ Table des matières::
 | 4        | Test clôturer compte  | Clôturer compte        | Clôture un compte. Si la fermeture du compte est bien validée, plus aucune action n'est possible sur le compte, son sole est à 0  | Pour pouvoir clôturer un compte, son solde doit être à 0. Si c'est le cas, il faut valider la confirmation de fermeture du compte.
 |===================================================================================================================================================================================================================================================================================================================================
 
-[id = "5. Fiche 5 (Relevé mensuel d'un compte en pdf)"]
+[id = "5. Fiche 5 (Relevé mensuel d un compte en pdf)"]
 == 5. Fiche 5 : Relevé mensuel d'un compte en pdf
 
 [options="header"]
