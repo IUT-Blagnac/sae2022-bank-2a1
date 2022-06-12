@@ -110,9 +110,14 @@ C'est dans cette méthode que le compte du client va être ajouté à la base do
 
 ===== 2. Créditer un compte bancaire (Alexandre)
 
+===== Use case correspondant :
+
 image::images/uc_crediter.png[]
 
+===== Diagramme de classe correspondant :
+
 image::images/dc_crediter.PNG[]
+
 
 Le guichetier peut se rendre sur le compte bancaire d'un client et effectuer un crédit.
 En appuyant sur le bouton "Enregistrer Crédit", on déclenche la méthode _doCrédit() _ de la classe _OperationsManagementController_, qui va elle-même appeler la fonction _enregistrerCrédit ()_ qui gère l'enregistrement des crédits de la classe _OperationsManagement_. Celle-ci va appeler la fonction _doOperationEditorDialog(CompteCourant cpte, CategorieOperation cm)_ avec comme catégorie d'opérations _CREDIT_ de la classe _OperationEditorPane_ pour l'affichage de la fenêtre. Celle-ci fait appelle à la méthode _displayDialog(CompteCourant cpte, CategorieOperation mode)_ qui va configurer l'interface en fonction de la catégorie d'opération. A la fin de celle-ci, on affiche l'interface bien configuré on attend que l'utilisateur ajoute le montant et que la méthode retourne une opération.
@@ -141,9 +146,14 @@ Le virement est alors effectué par la méthode _insertVirement(int idNumCompteD
 
 ===== 4. Cloturer un compte (Alexandre)
 
+===== Use case correspondant :
+
 image::images/uc_cloturer.png[]
 
+===== Diagramme de classe correspondant :
+
 image::images/dc_cloturer.PNG[]
+
 
 Vous pouvez cloturer un compte d'un client en le sélectionnant et en cliquant sur "Supprimer Compte". Cela déclenchera la méthode _doSupprimerCompte()_ qui prendra le compte sélectionné et vérifiera si le solde du compte est à 0. Le cas contraire si le solde est supérieur à 0, on affiche une alerte disant à l'utilisateur que le solde doit être à 0 avant de le cloturer sinon on fait pareil mais en disant que le solde est négatif.
 Si le solde est bien à 0, on demande confirmation à l'utilisateur pour la suppression du compte. S'il accepte on crée une variable de type AccessCompteCourant et on utilise la méthode _cloturerCompteCourant(CompteCourant cc)_ avec en paramètre le compte sélectionné. Cette méthode se connecte à la base de donnée et met à jour l'attribut "estCloture" à "O". Le programme lance une exception et rollback si jamais plusieurs lignes sont mises à jour au lieu d'une seule, sinon commit.On va ensuite actualiser la liste de compte avec la méthode _loadList()_ qui fera appel à la BD pour mettre tou les comptes dans la BD.
@@ -214,9 +224,16 @@ Pour finir, le bouton "Generer PDF" lance la fonction _doGenererPdf()_ qui va cr
 
 ===== 2. Gérer (faire le « CRUD ») les prélèvements automatiques (Alexandre)
 
+===== Use case correspondant :
+
 image::images/uc_crud_prelev.png[]
 
-Un guichetier peut faire le CRUD (Create Read Update Delete) des prélèvements. +
+===== Diagramme de classe correspondant :
+
+image::images/dc_crud_prelev.png[]
+
+
+Un guichetier/chef d'agence peut faire le CRUD (Create Read Update Delete) des prélèvements. +
 
 * _(Read)_ +
 Pour acceder à la fenêtre de gestion des prélèvements l'utilisateur doit allez dans le menu, cliquer sur "Gestion", "Client", "Compte Client", "Voir opérations" puis "Voir prélèvements"+ 
@@ -234,6 +251,8 @@ Pour modifier les informations d'un prélèvement, il faut sélectionner dans l'
 Pour supprimer un prélèvement, il faut appuyer sur le bouton "Supprimer prélèvement" a doite de l'affichage. Comme pour modifier un prélèvement il faut avoir sélectionner le prélèvement que l'on veut supprimer. Une fois le bouton presser, la fonction _doSupprimerPrelevement()_ de la classe _PrelevementManagementController_ va se lancer. Elle va a son tour lancer une alerte qui demandera confirmation à l'utilisateur. Si oui, elle lancera la fonction _supprimerPrelevement()_ de la classe _AccessPrelevement_. Cette méthode va elle supprimer le prélèvement de la base de donnée. Pour finir, la fonction _doSupprimerPrelevement()_ de la classe _PrelevementManagementController_ va actualisre l'affichage.
 
 ===== 2. Exécuter les prélèvements automatiques (Alexandre)
+
+===== Use case correspondant :
 
 image::images/uc_prelev.png[]
 
