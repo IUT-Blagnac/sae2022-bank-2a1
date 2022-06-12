@@ -40,16 +40,16 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 |         | Gantt V3 à jour   |                      | 
 |         | `jar` projet |    | 
 | 05/06   | Gantt V3 à Jour  |    |  
-|         | Doc. Util. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/118a89ae81a6762ce506aeca53df14377ae4b999/DOC/doc_utilisateur_v2.adoc |           
+|         | Doc. Util. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_utilisateur/doc_utilisateur_v2.adoc |           
 |         | Doc. Tec. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_v2.adoc    |     
 |         | Code V2     | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/2e1888e6bf8c7197259051b8c60d835822b7b4e7/DOC/Daily_Bank_V1/Workspace-Dev-V2.zip  |
-|         | Recette V2  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/8d72867fcd71a2d35156369ab0568cc80ba5bb10/DOC/cahier_de_recettes_v2.adoc |
+|         | Recette V2  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/cahier_de_recettes_v2.adoc |
 |         | `jar` projet |     |
 |12/06   | Gantt V3 à Jour  |    |  
-|         | Doc. Util. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/118a89ae81a6762ce506aeca53df14377ae4b999/DOC/doc_utilisateur_v2.adoc |           
-|         | Doc. Tec. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/81d39c7e01b0f8ece30dbb714b22d15175213c41/DOC/doc_technique_v2.adoc  |     
+|         | Doc. Util. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_utilisateur/doc_utilisateur_v2.adoc |           
+|         | Doc. Tec. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_v2.adoc  |     
 |         | Code V3     | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/2e1888e6bf8c7197259051b8c60d835822b7b4e7/DOC/Daily_Bank_V1/Workspace-Dev-V2.zip |
-|         | Recette V3  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/8d72867fcd71a2d35156369ab0568cc80ba5bb10/DOC/cahier_de_recettes_v2.adoc |
+|         | Recette V3  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/cahier_de_recettes_v2.adoc |
 |         | `jar` projet |     |
 |===
 
