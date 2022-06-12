@@ -14,10 +14,10 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 [cols="1,2,2,5",options=header]
 |===
 | Date    | Nom         |  Lien                             | Retour
-| 03/04   | Gantt V1    |                                                              | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les tâches et les durées sur toutes les semaines du projet.
-|         | CdC V1      |  https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/retourcdcv12a1.adoc                                  |  
+| 03/04   | Gantt V1    | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/GANTT/gantt_v1.pdf | C'est le plus détaillé de ceux que j'ai vu mais vous devez répartir les tâches et les durées sur toutes les semaines du projet.
+|         | CdC V1      |  https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/CDCU/CDCU_V1.adoc                                  |  
 |         | Suivi Projet |                                   |   L'arborescence du projet est à compléter. Un dossier source... Les issues ne sont pas toujours affectées. Je ne suis pas sure qu'elles correspondent exactement au gantt. Penser à classer les tâches du projet. Les formats de fichier sont respectés. Votre projet est privé je ne peux pas consulter les commits.  Penser à taguer les versions.        
-| 22/04  | CdC V2/V3 final| https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/6b521c020054e97b6a31c6f43dd8798082b70541/DOC/CDCU_V2_V3.adoc |  1,5/2	Manque nom projet et client
+| 22/04  | CdC V2/V3 final| https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/CDCU/CDCU_V2_V3.adoc |  1,5/2	Manque nom projet et client
 1,5/2	Il ne faut faire qu'un seul CDCU ! Et ne faire évoluer que la partie besoins voir contraintes pour V2 puis V3.
 3/4	Il manque juste une problématque, pourquoi ce projet ?
 1/4	Je devrais retrouver V0 dans l'analyse de l'existant avec UC correspondants.
@@ -28,20 +28,20 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 
 |         | Gantt V2    |                               |     
 |         | Gantt V3 |         |     
-|         | Doc. Tec. V1 |    https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/doc_technique_V1.adoc    |    
+|         | Doc. Tec. V1 |  https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_V1.adoc    |    
 |         | Doc User V1 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/doc_utilisateur_V1.adoc  |RETARD V1
 |         | Recette V1  |                      | 
 |         | Suivi projet|   | 
 | 22/05   | Gantt V2  à jour    |       | 
-|         | Doc. Util. V1 |         |         
-|         | Doc. Tec. V1 |                |     
-|         | Code V1     |                     | 
+|         | Doc. Util. V1 |  https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_utilisateur/doc_utilisateur_V1.adoc       |         
+|         | Doc. Tec. V1 |  https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_V1.adoc              |     
+|         | Code V1     |  https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/Application/Workspace-Dev-V1.zip           | 
 |         | Recette V1 |                      | 
 |         | Gantt V3 à jour   |                      | 
 |         | `jar` projet |    | 
 | 05/06   | Gantt V3 à Jour  |    |  
 |         | Doc. Util. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/118a89ae81a6762ce506aeca53df14377ae4b999/DOC/doc_utilisateur_v2.adoc |           
-|         | Doc. Tec. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/81d39c7e01b0f8ece30dbb714b22d15175213c41/DOC/doc_technique_v2.adoc    |     
+|         | Doc. Tec. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_v2.adoc    |     
 |         | Code V2     | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/2e1888e6bf8c7197259051b8c60d835822b7b4e7/DOC/Daily_Bank_V1/Workspace-Dev-V2.zip  |
 |         | Recette V2  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/8d72867fcd71a2d35156369ab0568cc80ba5bb10/DOC/cahier_de_recettes_v2.adoc |
 |         | `jar` projet |     |
