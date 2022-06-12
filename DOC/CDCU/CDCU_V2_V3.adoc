@@ -1,0 +1,116 @@
+= Cahier des charges - Version 2 & 3
+
+Nom:: CDCU_V2_V3
+
+Date::
+01/05/2022
+
+Equipe::
+Mazeau Antoine <antoine.mazeau31@gmail.com> +
+Benachir Alexandre <> +
+Recher Olivier <recher.olivier@outlook.fr> +
+Martinet Leila <leila.mrtnt1@gmail.com> +
+
+Sommaire::
+<<Cahier des charges version 2>> ::
+<<I. Présentation v2>> +
+<<II. Analyse existant v2>> +
+<<III. Analyse des besoins de la v2>> +
+<<IV. Contraintes de la V2>> +
+
+<<Cahier des charges version 3>> ::
+<<I. Présentation v3>> +
+<<II. Analyse existant v3>> +
+<<III. Analyse des besoins de la v3>> +
+<<IV. Contraintes de la V3>> +
+
+
+'''
+[id = "Cahier des charges version 2"]
+== Cahier des charges - Version 2
+
+[id = "I. Présentation v2"]
+=== I. Présentation & objectifs de la version
+
+
+La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
+Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles.
+
+
+Après analyse de l'existant de la V0 et de la V1, cette dernière a permis l'amélioration de l'application. Les nouvelles fonctionnalités de la V2, qui concernent les guichetiers et les chefs d'agence, doivent permettre de proposer de nouveaux services à la clientèle de la banque, ainsi qu'un meilleur suivi et une meilleure gestion de leurs clients.
+
+
+[id = "II. Analyse existant v2"]
+=== II. Analyse de l'existant
+
+A l'issue de la V1, _Daily Bank_ permet : +
+
+* Le guichetier peut modifier les informations d'un client, créer un nouveau client, consulter un compte, créditer et débiter un compte, créer un compte, effectuer un virement de compte à compte et  clôturer un compte. +
+
+* Le Chef d'Agence peut faire les mêmes choses que le guichetier, mais il peut également rendre inactif un client, ainsi que gérer les employés. +
+
+[id = "III. Analyse des besoins de la v2"]
+=== III. Analyse des besoins
+
+La version 2 doit permettre de faire évoluer la gestion interne de la banque afin de faire gagner en rapidité sur des actions qui étaient auparavant faites par les guichetiers des agences ou bien les chefs notamment pour la simulation d'emprunt et d'assurance emprunt. +
+L'application permettra un regroupement de ses fonctionnalités répondant à un besoin de simplification des démarches. Ainsi les employés seront plus efficaces et notre client verra alors une augmentation de sa productivité.
+
+[id = "IV. Contraintes de la V2"]
+=== IV. Contraintes
+
+Les contraintes sont : 
+
+* L'application initiale est déjà fournie, son IHM est codée en Java FX +
+
+* La difficulté du travail en équipe de 4 +
+
+* Les échéances à respecter pour les différentes versions (cf. Gantt prévisionnel) +
+
+* Le respect de la demande du client, le produit doit répondre à ses besoins
+
+
+[id = "Cahier des charges version 3"]
+== Cahier des charges - Version 3
+
+
+[id = "I. Présentation v3"]
+=== I. Présentation & objectifs de la version
+
+La banque Daily Bank, notre client, possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
+Les utilisateurs de l'application sont les guichetiers et les chefs d'agence. Les premiers pourront effectuer les opérations courantes, tandis que les seconds auront en plus les opérations exceptionnelles. 
+
+
+Après analyse de l'existant, la V1 et la V2 ont permis  son amélioration. Les nouvelles fonctionnalités de la V3, qui concernent les chefs d'agence et le "Batch", doivent permettre de finaliser l'application pour qu'elle corresponde à la demande du client.
+
+[id = "II. Analyse existant v3"]
+=== II. Analyse de l'existant
+
+A l'issue de la V2, _Daily Bank_ permet : +
+
+* Le guichetier peut modifier les informations d'un client, créer un nouveau client, consulter un compte, créditer et débiter un compte, créer un compte, effectuer un virement de compte à compte, clôturer un compte, générer un relevé mensuel d'un compte en PDF et gérer les prélèvements automatiques. +
+
+* Le Chef d'Agence peut faire les mêmes choses que le guichetier, mais il peut également rendre inactif un client, gérer les employés, effectuer un débit exceptionnel, simuler un emprunt et simuler une assurance d'emprunt. +
+
+[id = "III. Analyse des besoins de la v3"]
+=== III. Analyse des besoins
+
+Arrivés à la version 3, nous pouvons développer des fonctionnalités répondant à des besoins non exprimés mais supposés de _Daily Bank_. Nous nous pencherons dessus une fois la version 1 et 2 terminées. En effet, pour pouvoir satisfaire notre client, il faut avant tout impérativement avoir finalisé la version 1 et 2, qui elles répondent à des besoins clairement exprimés. +
+
+Avec la version 3, nous sommes également ammené  développer un "batch", c'est-à-dire un programme autonome. Le batch répondrait au besoin d'automatisation des tâches à caractère répétitif. +
+
+* Il génère un PDF avec les relevés mensuels
+
+* Il exécute les prélèvements automatiques
+
+[id = "IV. Contraintes de la V3"]
+=== IV. Contraintes
+
+Les contraintes sont : 
+
+* L'application initiale est déjà fournie, son IHM est codée en Java FX +
+
+* La difficulté du travail en équipe de 4 +
+
+* Les échéances à respecter pour les différentes versions (cf. Gantt prévisionnel) +
+
+* Le respect de la demande du client, le produit doit répondre à ses besoins
