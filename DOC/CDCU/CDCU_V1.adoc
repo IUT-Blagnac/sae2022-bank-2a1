@@ -1,0 +1,65 @@
+= Cahier des charges - Version 1
+
+== Sommaire
+<<id,Présentation>> +
+<<id,Analyse de l'existant>> +
+<<id,Analyse des besoins>> +
+<<id,Analyse des contraintes>> +
+
+[[id,Présentation]]
+== [red]#I. Présentation#
+La banque Daily Bank possède déjà une application mobile, _Daily Bank_. Or, celle-ci est assez limitée en terme de fonctionnalités et ne répond pas aux nouveaux besoins de la banque. +
+Les nouvelles fonctionnalités de la V1 concerneraient les guichetiers et le chef d'agence.
+
+[[id,Analyse de l'existant]]
+== [red]#II. Analyse de l'existant#
+
+.La V0 de Daily Bank comprend déjà les fonctionnalités suivantes :
+* Pour le guichetier :
+** Modifier informations client (adresse, téléphone, …)
+** Créer un nouveau client
+** Consulter un compte
+** Débiter un compte
+* Pour le chef d'agence :
+** Rendre inactif un client
+
+Cette version ne permet pas de répondre à tous les besoins de la banque, car elle ne permet pas de bien gérer les comptes bancaires. La V1 va en partie palier ce problème.
+
+[[id,Analyse des besoins]]
+== [red]#III. Analyse des besoins de la version 1#
+
+Pour que le projet réponde à tout les besoins, il faut rajouter des fonctionnalités à la version 0.
+
+Dans la version 1 du projet, voici les éléments qu'il faut rajouter : +
+
+* Guichetier :
+** Créditer/débiter un compte (java et BD avec procédure stockée)
+** Créer un compte
+** Effectuer un virement de compte à compte
+** Clôturer un compte
+* Chef d’Agence :
+** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
+
+****
+image:icon_warning.png[30,30]
+CRUD = __Create Read Update Delete__
+****
+
+
+Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet.
+
+image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+
+[[id,Analyse des contraintes]]
+== [red]#IV. Analyse des contraintes#
+
+Nos contraintes se répartissent en deux grandes catégories : 
+
+* L'aspect technique
+** L'application doit être sécurisée et ne doit pas laisser fuiter les données des clients.
+** Il faut que les fonctionnalitées développées soient disponibles uniquement pour les personnes autorisées à s'en servir.
+** L'application se présente sous la forme d'une interface facilement utilisable pour des novices en informatique.
+
+* L'aspect organisationnel
+** Nous devons respecter des deadlines ainsi que le Gantt préalablement établi pour ce projet.
+** Il nous faut maintenir un GitHub à jour en ajoutant et modifiant régulièrement l'avancé de notre travail.
