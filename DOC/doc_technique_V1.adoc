@@ -106,7 +106,11 @@ C'est dans cette méthode que le compte du client va être ajouté à la base do
 
 ===== 2. Créditer un compte bancaire (Alexandre)
 
+===== Use case correspondant :
+
 image::images/uc_crediter.png[]
+
+===== Diagramme de classe correspondant : 
 
 image::images/dc_crediter.PNG[]
 
@@ -135,7 +139,11 @@ Le virement est alors effectué par la méthode _insertVirement(int idNumCompteD
 
 ===== 4. Cloturer un compte (Alexandre)
 
+===== Use case correspondant :
+
 image::images/uc_cloturer.png[]
+
+===== Diagramme de classe correspondant :
 
 image::images/dc_cloturer.PNG[]
 
