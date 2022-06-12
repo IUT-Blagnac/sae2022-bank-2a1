@@ -44,13 +44,13 @@ Nous avons pour mission de reprendre cette application afin de l'améliorer et p
 |         | Doc. Tec. V2 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_v2.adoc    |     
 |         | Code V2     | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/2e1888e6bf8c7197259051b8c60d835822b7b4e7/DOC/Daily_Bank_V1/Workspace-Dev-V2.zip  |
 |         | Recette V2  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/cahier_de_recettes_v2.adoc |
-|         | `jar` projet |     |
+|         | `jar` projet | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/652aeafe0234b0bea8eaa37f0a0ce84424e983c3/Application/DailyBankApp.jar |
 |12/06   | Gantt V3 à Jour  |    |  
 |         | Doc. Util. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_utilisateur/doc_utilisateur_v2.adoc |           
 |         | Doc. Tec. V3 | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/Doc_technique/doc_technique_v2.adoc  |     
 |         | Code V3     | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/2e1888e6bf8c7197259051b8c60d835822b7b4e7/DOC/Daily_Bank_V1/Workspace-Dev-V2.zip |
 |         | Recette V3  | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/main/DOC/cahier_de_recettes_v2.adoc |
-|         | `jar` projet |     |
+|         | `jar` projet | https://github.com/IUT-Blagnac/sae2022-bank-2a1/blob/652aeafe0234b0bea8eaa37f0a0ce84424e983c3/Application/DailyBankApp.jar |
 |===
 
 == Les critères d'évaluation :SAE S2.05 Gestion de projet
