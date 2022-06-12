@@ -41,14 +41,14 @@ Dans la version 1 du projet, voici les éléments qu'il faut rajouter : +
 ** Gérer (faire le « CRUD ») les employés (guichetier et chef d’agence)
 
 ****
-image:icon_warning.png[30,30]
+image::images/icon_warning.png[30,30]
 CRUD = __Create Read Update Delete__
 ****
 
 
 Voici le use case que nous avons implémenté pour répondre aux nouveaux besoins de la version 1 du projet.
 
-image::uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
+image::images/uc_V1.png[title="Use case v1 (uniquement) // réalisé avec PlantUml"]
 
 [[id,Analyse des contraintes]]
 == [red]#IV. Analyse des contraintes#
