@@ -79,7 +79,7 @@ Pour résumer, les classes de package _application.vew_ vont permettre de charge
 ** Rendre inactif un client 
 
 
-image::uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
+image::images/uc_V0.png[title="Use case v0 (uniquement) // réalisé avec PlantUml"]
 
 
 
